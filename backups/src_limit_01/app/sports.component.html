@@ -1,0 +1,122 @@
+          <!-- Page container -->
+          <div class="page-container">
+            <!-- Page content -->
+            <div class="page-content">
+
+              <div class="content-wrapper" >
+                  <div class="row">
+                      <div class="col-lg-9">
+                          <div class="row">
+                      <div class="col-lg-3">
+                          <div class="panel panel-flat">
+                              <div class="panel-heading">
+                                <h6 class="panel-title">Sporlar</h6>
+                                <div class="heading-elements">
+                                  <a href="#" class="heading-text">See all &rarr;</a>
+                                        </div>
+                              </div>
+              
+                              <div class="list-group no-border no-padding-top">
+                                <a class="list-group-item"  *ngFor="let sport of sportsName | derp">
+                                  <i class="icon-file-text2"></i> {{sport.val.tr}}
+                                </a>
+                                <div class="list-group-divider"></div>
+                                <a href="#" class="list-group-item"><i class="icon-calendar3"></i> Events <span class="badge bg-teal-400 pull-right">48</span></a>
+ </div>
+                            </div>
+                            <!-- /navigation -->
+                      </div>
+                      <div class="col-md-9">
+                          <div class="panel panel-flat" *ngFor="let sport of sportListe | derp">
+                              <div class="panel-heading">
+                                <h6 class="panel-title"><b> {{sportsName[sport.key].tr}}</b> ({{sport.key}})</h6>
+                              </div>
+                              <div class="table-responsive">
+                                <table class="table table-bordered table-striped">
+                                  <thead>
+                                    <tr>
+                                      <th>#ID </th>
+                                      <th>Teams</th>
+                                      <th>Category</th>
+                                      <th>Tournament</th>
+                                      <th>Last Update</th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    <ng-container  *ngFor="let cat of sport.val | derp">
+                                      <ng-container  *ngFor="let tour of cat.val | derp">
+                                        <tr class="info">
+                                          <td colspan="8" class="text-semibold">
+                                            {{tour.val[0].category.tr}} -
+                                            {{tour.val[0].tournament.tr}}
+                                          </td>
+                                        </tr>
+                                        <tr *ngFor="let match of tour.val">
+                                          <td>{{match.teams.home.tr}} <-> {{match.teams.away.tr}}</td>
+                                          <td>{{match.sport.tr}}</td>
+                                          <td>{{match.tournament.tr}}</td>
+                                          <td>{{match.category.tr}}</td>
+                                          <td>{{match.matchid}}</td>
+                                        </tr>
+                                      </ng-container>
+                                    </ng-container>
+                                  </tbody>
+                                </table>
+                              </div>
+                            </div>
+                      </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3"></div>
+                  </div>
+                <!-- Sports -->
+ 
+                <table class="table table-bordered table-striped hide">
+                  <thead>
+                    <tr>
+                      <th>#ID</th>
+                      <th>Teams</th>
+                      <th>Category</th>
+                      <th>Tournament</th>
+                      <th>Last Update</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+
+                    <tr *ngFor="let liste of upcomingMatches">
+
+                      <td>{{liste.teams.home.tr}} <-> {{liste.teams.away.tr}}</td>
+                      <td>{{liste.sport.tr}}</td>
+                      <td>{{liste.tournament.tr}}</td>
+                      <td>{{liste.category.tr}}</td>
+                      <td>{{liste.matchid}}</td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <table class="table table-bordered table-striped hide">
+                  <thead>
+                    <tr>
+                      <th>#ID ({{totalDataArray.length}}) </th>
+                      <th>Teams</th>
+                      <th>Category</th>
+                      <th>Tournament</th>
+                      <th>Last Update</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+
+                    <tr *ngFor="let liste of totalDataArray">
+
+                      <td>{{liste}}</td>
+                      <td>{{totalDataObject[liste].teams.home.tr}} <-> {{totalDataObject[liste].teams.away.tr}}</td>
+                      <td>{{this.totalcats[totalDataObject[liste]?.category_id].tr}}</td>
+                      <td >{{this.totaltournament[totalDataObject[liste]?.tournament_id].tr}}</td>
+                      <td>{{this.totalsport[totalDataObject[liste]?.sport_id].tr}}</td>
+                    </tr>
+                  </tbody>
+                </table>
+
+              </div>
+            </div>
+          </div>

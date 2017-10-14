@@ -1,0 +1,270 @@
+<header >
+    
+            <a href="javascript:;" id="scrollup">
+                <i class="fa fa-arrow-circle-o-up" aria-hidden="true"></i>
+            </a>
+            <div id="loader-wrapper" style="display:none">
+                <div class="loader-container">
+                    <svg id="load" x="0px" y="0px" viewBox="0 0 150 150">
+                        <circle id="loading-inner" cx="75" cy="75" r="60"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="top-header">
+                <div class="container ">
+                    <div class="row">
+                        <button type="button" class="navbar-toggle col-xs-2 col-sm-2  top-toggle collapsed pull-left" data-toggle="collapse" data-target="#top-menu" aria-expanded="false" aria-controls="top-menu" >
+                          <i class="fa fa-bars" aria-hidden="true"></i>
+                        </button>
+                        <div class="logo-row col-xs-8 col-sm-8 col-md-2 pull-left">
+                            <a routerLink="">
+                                 <div class="logo-inc">
+                                    <div class="logo"><div class="shine"></div></div>
+                                </div>
+                            </a>
+                        </div>
+                        <button type="button" class="navbar-toggle col-xs-2 col-sm-2  top-toggle collapsed" data-toggle="collapse" data-target="#user-nav" aria-expanded="false" aria-controls="user-nav">
+                          <i class="ti-user" aria-hidden="true"></i>
+                        </button>
+    
+                        <nav class="top-menu col-md-8 pl-0 pr-0 animated-slow" id="top-menu">
+                            <ul class="nav nav-pills">
+                                <li><a routerLink="/sports" routerLinkActive="active">SPOR BAHİSLERİ</a></li>
+                                <li><a routerLink="/live" routerLinkActive="active">CANLI BAHİS</a></li>
+                                <li><a routerLink="/casino" routerLinkActive="active">CASINO</a></li>
+                                <li><a routerLink="/slot" routerLinkActive="active">SLOT</a></li>
+                                <li><a routerLink="/betongames" routerLinkActive="active">BET ON</a></li>
+                                <li><a routerLink="/tombalalive" routerLinkActive="active">TOMBALA</a></li>
+                                <li class="hidden-xs hidden-sm"><a routerLink="/virtual" routerLinkActive="active">VIRTUAL</a></li>
+                                <li><a routerLink="/promotions" routerLinkActive="active">PROMOSYONLAR</a></li>
+                            </ul>
+                        </nav>
+
+                        <ng-container *ngIf="storeData?.auth; else elseTemplate">
+                            <div class="top-balance">
+                              <span class="wallet_balance">95.00</span> <i class="fa fa-try"></i>
+                            </div>
+                            <div class="user pull-right">
+                                <div class="user-name">
+                                    <i class="ti-user gender-1"></i> Hoşgeldin Gokhan! <i class="ti-crown"></i>
+                                </div>
+                                <div class="user-detail">
+                                    <a routerLink="/my" class="badge coupon-badge" data-toggle="tooltip" data-placement="bottom" title="Bekleyen Kuponunuz" data-delay='{"show":"500", "hide":"500"}'><i class="fa fa-file-text-o" aria-hidden="true"></i> <span class="wallet_coupon">4</span> Kupon</a>
+                                    <a (click)="logout()" class="badge coupon-badge pull-right label-danger"><i class="fa fa-lock" aria-hidden="true"></i> Çıkış</a>
+                                </div>
+                            </div>
+                        </ng-container>
+                        <ng-template #elseTemplate>
+                            <div class="login-row pull-right">
+                                <a routerLink="/login" class="pull-left btn btn-info login-btn">Giriş Yap</a>
+                                <a href="https://betdemo.dev/register" class="pull-left btn btn-default login-btn">Kayıt Ol</a>
+                            </div>
+                        </ng-template>
+
+
+
+
+                            <div class="modal fade" id="loginFormModal" tabindex="-1" role="dialog" aria-labelledby="loginFormLabel">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                            <div class="clearfix"></div>
+                                            <div class="col-md-6">
+                                                <div class="row">
+                                                    <a href="javascript:;" class="btn btn-info btn-block">GİRİŞ YAP</a>
+                                                </div>
+                                            </div>
+                                             <div class="col-md-6">
+                                                <div class="row">
+                                                    <a href="https://betdemo.dev/register" class="btn btn-primary btn-block">KAYIT OL</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="modal-body p-20">
+                                            <form method="POST" action="https://betdemo.dev/login" accept-charset="UTF-8" id="loginForm"><input name="_token" type="hidden" value="2jkE4jEboUZAlzNqXdfkR6nNC8nbbhYmesSrQnAD">
+    
+                                            <div class="errors">
+                                                                                        </div>
+    
+                                            <div class="row">
+                                                <div class="login-text">MOXBET'E GİRİŞ YAPIN</div>
+                                                <div class="col-md-6 text-center">
+                                                    <div class="form-group">
+                                                        <input name="login" type="text" placeholder="Kullanıcı adı ya da e-posta" class="form-control">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 text-center">
+                                                    <div class="form-group">
+                                                        <input name="password" type="password" placeholder="Şifrenizi yazın" class="form-control">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="checkbox">
+                                                        <label class="label-text">
+                                                            <input type="checkbox" value="on" name="remember">
+                                                            <span class="cr"><i class="cr-icon fa fa-check" aria-hidden="true"></i></span>
+                                                            BENİ HATIRLA
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <button type="submit" data-callback="loginCallback" data-type="ajax" data-href="#loginForm" class="btn btn-block login-btn">Giriş Yap</button>
+                                                </div>
+                                                <div class="clearfix"></div>
+                                                <div class="col-md-6 pull-right">
+                                                    <a href="https://betdemo.dev/password/reset" class="pull-right modal-forgot-password"><i class="ti-face-sad"></i> ŞİFRENİZİ Mİ UNUTTUNUZ ?</a>
+                                                </div>
+                                            </div>
+                                            </form>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a href="https://betdemo.dev/register">
+                                                <span class="text">YENİ ÜYELİK OLUŞTUR <br> <small>HEMEN KAZANMAYA BAŞLA</small> </span>
+                                                <i class="arrow-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                        </div>
+                </div>
+            </div>
+            <div style="margin-top:54px"></div>
+            <div class="user-top">
+                <div class="container">
+                                    <nav class="user-nav animated animated-slow" id="user-nav">
+                        <ul class="nav navbar-nav">
+                            <div class="col-xs-12">
+                                <a href="https://betdemo.dev/login" class="btn-block btn btn-info login-btn"><i class="ti-user"></i> GİRİŞ YAP</a>
+                            </div>
+                            <div class="col-xs-12">
+                                <a href="https://betdemo.dev/register" type="button" class="btn-block btn btn-info login-btn"><i class="ti-pencil-alt"></i> ÜYE OL</a>
+                            </div>
+                            <li class="nav-welcome">MERHABA <span>MİSAFİR</span></li>
+                            <li class="nav-welcome-text">Lütfen Giriş Yapınız...</li>
+                        </ul>
+                    </nav>
+                                    </div>
+                </div>
+            <div class="mobile-location-menu visible-xs visible-sm">
+                    <button  type="button" class="navbar-toggle col-xs-2 top-toggle pull-left">
+                         <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                    </button>
+                    <button type="button" class="live-support navbar-toggle col-xs-2 top-toggle pull-right">
+                         <i class="fa fa-comments" aria-hidden="true"></i>
+                    </button>
+            </div>
+        </header>
+   
+
+
+
+
+        <section>
+            <div class="container-fluid pt-10">
+                    <div class="row">
+                        <div class="col-md-12">
+
+
+
+    <router-outlet></router-outlet>
+
+    </div>
+                    
+</div>
+                </div>
+                </section>
+                <footer >
+                        <div class="top">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <img class="center-block" src="//betdemo.dev/assets/images/providers.png?2" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div class="bottom">
+                            <div class="container">
+                                <div class="row">
+                
+                                    <!-- MENU -->
+                                    <div class="col-xs-2">
+                                        <ul class="footer">
+                                            <a><img style="margin-top:25px;" src="//betdemo.dev/assets/images/logo.png" alt=""></a>
+                                        </ul>
+                                    </div>
+                                    <!-- #MENU -->
+                                    <!-- MENU -->
+                                    <div class="col-xs-2">
+                                        <h1>ANA BÖLÜMLER</h1>
+                                        <ul class="footer">
+                                            <li><a href="https://betdemo.dev/sportsbook">Spor Bahisleri</a></li>
+                                            <li><a href="https://betdemo.dev/live"> Canlı Bahis</a></li>
+                                            <li><a href="https://betdemo.dev/casino">Canlı Casino</a></li>
+                                            <li><a href="https://betdemo.dev/slot">Slot Oyunlar</a></li>
+                                            <li><a href="https://betdemo.dev/virtual">Virtual Gaming</a></li>
+                                        </ul>
+                                    </div>
+                                    <!-- #MENU -->
+                
+                                    <!-- MENU -->
+                                    <div class="col-xs-2">
+                                        <h1>SABİT SAYFALAR</h1>
+                                        <ul class="footer">
+                                                                        <li><a href="https://betdemo.dev/content/1"><i class="ti-angle-double-right"></i> tr language contact title</a></li>
+                                                                        <li><a href="https://betdemo.dev/content/2"><i class="ti-angle-double-right"></i> tr language aboutus title</a></li>
+                                                                        <li><a href="https://betdemo.dev/content/3"><i class="ti-angle-double-right"></i> tr language rules title</a></li>
+                                                                        <li><a href="https://betdemo.dev/content/4"><i class="ti-angle-double-right"></i> tr language privacy title</a></li>
+                                                                        <li><a href="https://betdemo.dev/content/5"><i class="ti-angle-double-right"></i> tr language bonus title</a></li>
+                                                                        <li><a href="https://betdemo.dev/content/6"><i class="ti-angle-double-right"></i> tr language discount title</a></li>
+                                                                    </ul>
+                                    </div>
+                                    <!-- #MENU -->
+                
+                                    <!-- MENU -->
+                                    <div class="col-xs-3">
+                                        <h1>Promosyonlar</h1>
+                                        <ul class="footer">
+                                                                    </ul>
+                                    </div>
+                                    <!-- #MENU -->
+                
+                                    <!-- MENU -->
+                                    <div class="col-xs-2">
+                                        <ul class="footer">
+                                            <li><a href="mailto:contact@moxbet1.com">contact@moxbet1.com</a></li>
+                                            <li><a href="mailto:destek@moxbet1.com">destek@moxbet1.com</a></li>
+                                            <li><a href="mailto:bonus@moxbet1.com">bonus@moxbet1.com</a></li>
+                                        </ul>
+                                        <ul class="social list-inline">
+                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                        </ul>
+                                        <p class="fs-16 fw-900 text-left" style="color:#fff"> Bizi Takip Edin</p>
+                                    </div>
+                                    <!-- #MENU -->
+                                    <div class="col-md-1">
+                                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- #BOTTOM -->
+                
+                        <!-- COPYRIGHT -->
+                        <div class="copyright">
+                            <div class="container" style="color: #a5a5a5;text-align: center;">
+                                <p>moxbet.com is operated by Redsoft N.V. registered in the Commercial register of Curacao no. 131608, and is licensed by the Government of Curacao, with license number 8048/JAZ2014-014 REDSOFT N.V. Landhuis Groot Kwartier Groot Kwartierweg 12 Willemstad,Curacao
+                                For complaints : complaints@gaminglicences.com</p>
+                            </div>
+                        </div>
+                        <!-- #COPYRIGHT -->
+                    </footer>
+                    <pre class="hide">
+                            {{storeData?.static?.sportsName | json}}
+                    </pre>
+   

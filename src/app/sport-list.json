@@ -1,0 +1,146 @@
+{
+  "1": {
+    "id": "1",
+    "tr": "Futbol",
+    "en": "Soccer",
+    "de": "Fußball",
+    "sort": "1",
+    "last_update": "2017-09-05 07:00:15",
+    "total": "670"
+  },
+  "2": {
+    "id": "2",
+    "tr": "Basketbol",
+    "en": "Basketball",
+    "de": "Basketball",
+    "sort": "2",
+    "last_update": "2017-09-04 23:30:15",
+    "total": "12"
+  },
+  "3": {
+    "id": "3",
+    "tr": "Beyzbol",
+    "en": "Baseball",
+    "de": "Baseball",
+    "sort": "10",
+    "last_update": "2017-09-05 03:30:13",
+    "total": "20"
+  },
+  "4": {
+    "id": "4",
+    "tr": "Buz Hokeyi",
+    "en": "Ice Hockey",
+    "de": "Eishockey",
+    "sort": "14",
+    "last_update": "2017-09-05 06:00:13",
+    "total": "111"
+  },
+  "5": {
+    "id": "5",
+    "tr": "Tenis",
+    "en": "Tennis",
+    "de": "Tennis",
+    "sort": "3",
+    "last_update": "2017-09-05 06:00:13",
+    "total": "362"
+  },
+  "6": {
+    "id": "6",
+    "tr": "Hentbol",
+    "en": "Handball",
+    "de": "Handball",
+    "sort": "5",
+    "last_update": "2017-09-04 18:30:15",
+    "total": "15"
+  },
+  "10": {
+    "id": "10",
+    "tr": "Boks",
+    "en": "Boxing",
+    "de": "Boxen",
+    "sort": "12",
+    "last_update": "2017-09-02 23:00:09",
+    "total": "1"
+  },
+  "12": {
+    "id": "12",
+    "tr": "Ragbi",
+    "en": "Rugby",
+    "de": "Rugby",
+    "sort": "9",
+    "last_update": "2017-09-04 22:00:17",
+    "total": "34"
+  },
+  "13": {
+    "id": "13",
+    "tr": "Avustralya Futbolu",
+    "en": "Aussie Rules",
+    "de": "Australian Football",
+    "sort": "8",
+    "last_update": "2017-09-02 12:00:04",
+    "total": "4"
+  },
+  "16": {
+    "id": "16",
+    "tr": "Amerikan Futbolu",
+    "en": "American Football",
+    "de": "American Football",
+    "sort": "7",
+    "last_update": "2017-09-05 04:30:13",
+    "total": "17"
+  },
+  "17": {
+    "id": "17",
+    "tr": "Bisiklet",
+    "en": "Cycling",
+    "de": "Radsport",
+    "sort": "999",
+    "last_update": "2017-09-04 09:30:13",
+    "total": "13"
+  },
+  "20": {
+    "id": "20",
+    "tr": "Masa Tenisi",
+    "en": "Table Tennis",
+    "de": "Tischtennis",
+    "sort": "16",
+    "last_update": "2017-09-04 23:30:15",
+    "total": "8"
+  },
+  "21": {
+    "id": "21",
+    "tr": "Kriket",
+    "en": "Cricket",
+    "de": "Cricket",
+    "sort": "17",
+    "last_update": "2017-09-04 14:00:11",
+    "total": "12"
+  },
+  "23": {
+    "id": "23",
+    "tr": "Voleybol",
+    "en": "Volleyball",
+    "de": "Volleyball",
+    "sort": "4",
+    "last_update": "2017-09-05 07:00:15",
+    "total": "2"
+  },
+  "31": {
+    "id": "31",
+    "tr": "Badminton",
+    "en": "Badminton",
+    "de": "Badminton",
+    "sort": "21",
+    "last_update": "2017-09-04 22:00:17",
+    "total": "15"
+  },
+  "32": {
+    "id": "32",
+    "tr": "Bowls",
+    "en": "Bowls",
+    "de": "Bowls",
+    "sort": "22",
+    "last_update": "2017-09-04 16:00:13",
+    "total": "3"
+  }
+}

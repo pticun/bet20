@@ -1,0 +1,136 @@
+<div class="row">
+  <div class="col-md-9">
+<div class="row">
+<div class="left-column col-md-3">
+    <div class="fav-league sport-cat pt-10">
+				<div class="title-block text-center"><i class="fa fa-star"></i> FAVORİ LİGLER</div>
+				<ul class="nav">
+					<li><a href="https://betdemo.dev/sportsbook?sport=1&amp;category=46&amp;tournament=62"><i class="favleague favleague-46-62"></i> Super Lig</a></li>
+					<li><a href="https://betdemo.dev/sportsbook?sport=1&amp;category=46&amp;tournament=101"><i class="favleague favleague-46-101"></i> PTT 1. Lig</a></li>
+					<li><a href="https://betdemo.dev/sportsbook?sport=1&amp;category=1&amp;tournament=1"><i class="favleague favleague-1-1"></i> Premier League</a></li>
+					<li><a href="https://betdemo.dev/sportsbook?sport=1&amp;category=32&amp;tournament=36"><i class="favleague favleague-32-36"></i> La Liga</a></li>
+					<li><a href="https://betdemo.dev/sportsbook?sport=1&amp;category=30&amp;tournament=42"><i class="favleague favleague-30-42"></i> Bundes Liga</a></li>
+					<li><a href="https://betdemo.dev/sportsbook?sport=1&amp;category=31&amp;tournament=33"><i class="favleague favleague-31-33"></i> Serie A</a></li>
+					<li><a href="https://betdemo.dev/sportsbook?sport=1&amp;category=7&amp;tournament=4"><i class="favleague favleague-7-4"></i> Ligue 1</a></li>
+					<li><a href="https://betdemo.dev/sportsbook?sport=1&amp;category=44&amp;tournament=52"><i class="favleague favleague-44-52"></i> Liga Portugal</a></li>
+					<li><a href="https://betdemo.dev/sportsbook?sport=1&amp;category=35&amp;tournament=39"><i class="favleague favleague-35-39"></i> Eredevisie</a></li>
+					<li><a href="https://betdemo.dev/sportsbook?sport=2&amp;category=15&amp;tournament=177"><i class="favleague favleague-15-177"></i> NBA</a></li>
+				</ul>
+      </div>
+      
+			<nav class="sport-cat pt-10">
+          <div class="title-block text-center">
+            <span class="badge-2 title-block-ico pull-left">
+            <i class="fa fa-futbol-o" aria-hidden="true"></i></span>
+             <a href="https://betdemo.dev/sportsbook" role="button">SPOR BAHİSLERİ</a>
+              <span class="pull-right title-count badge"> {{totalMatch}} </span> 
+              <i class="fa fa-arrow-circle-left menu-min" aria-hidden="true"></i>
+            </div>
+          <ul class="nav">
+                                        <li *ngFor="let sport of sportsName | derp">
+              <a href="https://betdemo.dev/sportsbook?sport=1">
+                <i class="sport sport_{{sport.key}}"></i> {{sport.val.tr}} 
+                <span class="badge sport-count pull-right">{{sport.val.total}}</span>
+              </a>
+                  </li>
+                  </ul>
+			</nav>
+
+                            <!-- /navigation -->
+                      </div>
+                      <div class="center-column col-md-9">
+
+                          <div class="clearfix"></div>
+                          <div class="highlights">
+                    
+                            <div class="title-block text-left pl-20">
+                            <i class="ti-dashboard"></i> <span>YAKLAŞAN MAÇLAR</span>
+                            </div>
+                            <div class="tab-content">
+                              <div role="tabpanel" class="tab-pane fade in active" id="prematches">
+                                <table class="table match-table table-responsive">
+                                  <thead>
+                                    <tr>
+                                      <th class="col-md-1"></th>
+                                      <th class="col-md-1">SAAT</th>
+                                      <th class="col-md-4">KARŞILAŞMA</th>
+                                      <th class="col-md-4 text-center">ORANLAR</th>
+                                      <th class="col-md-1"></th>
+                                      <th class="col-md-1"></th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                          <tr style="background: none !important;">
+                                          <td class="col-md-1 col-xs-1" style="border: none !important; padding:0px !important;"></td>
+                                            <td class="col-md-1 col-xs-2" style="border: none !important; padding:0px !important;"></td>
+                                            <td class="col-md-4 col-xs-7" style="border: none !important; padding:0px !important;"></td>
+                                            <td class="col-md-1 col-xs-1 statistic-btn" style="border: none !important; padding:0px !important;"></td>
+                                            <td class="col-md-1 col-xs-2" style="border: none !important; padding:0px !important;"></td>
+                                        </tr>
+                                        <ng-container  *ngFor="let sport of sportListe | derp">
+                                            <ng-container  *ngFor="let cat of sport.val | derp">
+                                                <ng-container  *ngFor="let tour of cat.val | derp">
+                                        <tr class="category">
+                                          <td colspan="6">
+                                            <i class="flag flag-radar{{cat.key}}"></i>
+                                            {{tour.val[0].category.tr}} -
+                                            {{tour.val[0].tournament.tr}}
+                                          </td>
+                                        </tr>
+                                        <ng-container  *ngFor="let match of tour.val">             
+                                      <tr data-betstatus="started"  data-sport="1" data-category="21" data-tournament="53" data-name="Dinamo Moskova - SKA Energia Khabarovsk" data-match="11865516">
+                                            <td class="col-md-1 col-xs-1 match-icon"><i class="sport sport_{{sport.key}}"></i></td>
+                                            <td class="col-md-1 col-xs-2 match-time">14.10 <span>14:00</span></td>
+                                            <td class="col-md-4 col-xs-7 match-name">
+                                              <span>{{match.teams.home.tr}} - {{match.teams.away.tr}}</span>
+                                               <br /> 
+                                               <span class="league pull-left"> 
+                                                 {{tour.val[0].category.tr}} - {{tour.val[0].tournament.tr}}
+                                                 </span>
+                                                </td>
+                                        <td class="col-md-4 match-odds" data-active="1" data-market="991186551610" >
+                                                                                               <a href="javascript:;" data-action="my/coupons/updateCouponDetail" data-method="POST" data-callback="addMatchToCoupon" data-type="ajax" data-market="991186551610" data-outcome="1" data-sport="0" data-sbv="" data-value="1.55" data-type="bet"  data-bet="1" class="col-md-4 oddbtn "><span class="pull-left outcome">1</span> <span class="pull-right odd">1.55</span></a>
+                                                                      <a href="javascript:;" data-action="my/coupons/updateCouponDetail" data-method="POST" data-callback="addMatchToCoupon" data-type="ajax" data-market="991186551610" data-outcome="2" data-sport="0" data-sbv="" data-value="3.60" data-type="bet"  data-bet="2" class="col-md-4 oddbtn "><span class="pull-left outcome">X</span> <span class="pull-right odd">3.60</span></a>
+                                                                      <a href="javascript:;" data-action="my/coupons/updateCouponDetail" data-method="POST" data-callback="addMatchToCoupon" data-type="ajax" data-market="991186551610" data-outcome="3" data-sport="0" data-sbv="" data-value="6.75" data-type="bet"  data-bet="3" class="col-md-4 oddbtn pull-right"><span class="pull-left outcome">2</span> <span class="pull-right odd">6.75</span></a>
+                                        </td>
+                                            <td class="col-md-1 col-xs-1 statistic-btn">
+                                               <a  
+                                               href="https://stats.betradar.com/s4/?clientid=790&amp;matchid={{match.matchid}}"
+                                               class="fa fa-bar-chart fancybox fancybox.iframe"
+                                                aria-hidden="true"
+                                                ></a>
+                                                <a style="color:#6a6a6a" (click)="widgetAc(match.matchid)" data-matchid="11865516" class="fa fa-star match_statistic" aria-hidden="true"></a>
+                                              </td>
+                                            <td class="col-md-1 col-xs-2 other-odds"><a href="https://betdemo.dev/sportsbook/detail/11865516?">+92</a></td>
+                                        </tr>
+                                        </ng-container>
+                                      </ng-container>
+                                    </ng-container>
+                                    </ng-container>
+                                  </tbody>
+                                </table>
+                                </div>
+                                </div>
+                                </div>
+
+                      </div>
+                      </div>
+                    </div>
+                    <div class="right-column col-md-3">
+                        <div class="match-statistic">
+                          <div class="title-block text-center" role="button" data-toggle="collapse" href="#statistic-right"><span class="badge-2 title-block-ico"><i class="fa fa-star"></i></span> MAÇ DETAYI <i class="fa fa-chevron-down"></i></div>
+                          <div class="col-md-12 collapsed in" id="statistic-right">
+                            <div class="row">
+                              <div class="col-md-12 no-statistic">
+                                Herhangi bir maç seçmediniz, lütfen istediğiniz bir maçın istatistiğini görmek için " <i style="color:#FFEB3B" class="fa fa-star"></i> " ikonuna tıklayınız.
+                              </div>
+                              <div class="clearfix"></div>
+                              <div class="wc-widget_1"></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                <!-- Sports -->
+ 
+              

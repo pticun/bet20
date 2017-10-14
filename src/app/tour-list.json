@@ -1,0 +1,2062 @@
+{
+  "1": {
+    "id": "1",
+    "category": "1",
+    "tr": "Premier Lig",
+    "en": "Premier League",
+    "de": "Premier League",
+    "sort": "1",
+    "last_update": "2017-09-04 21:00:20",
+    "total": "10"
+  },
+  "2": {
+    "id": "2",
+    "category": "1",
+    "tr": "Championship",
+    "en": "Championship",
+    "de": "Championship",
+    "sort": "2",
+    "last_update": "2017-09-02 18:30:21",
+    "total": "12"
+  },
+  "3": {
+    "id": "3",
+    "category": "1",
+    "tr": "1. Lig",
+    "en": "League One",
+    "de": "League One",
+    "sort": "3",
+    "last_update": "2017-09-03 16:31:58",
+    "total": "12"
+  },
+  "4": {
+    "id": "4",
+    "category": "7",
+    "tr": "Ligue 1",
+    "en": "Ligue 1",
+    "de": "Ligue 1",
+    "sort": "1",
+    "last_update": "2017-09-03 21:00:17",
+    "total": "10"
+  },
+  "5": {
+    "id": "5",
+    "category": "5",
+    "tr": "Eliteserien",
+    "en": "Eliteserien",
+    "de": "Eliteserien",
+    "sort": "999",
+    "last_update": "2017-09-04 19:00:19",
+    "total": "8"
+  },
+  "6": {
+    "id": "6",
+    "category": "5",
+    "tr": "1.kğme",
+    "en": "1st Division",
+    "de": "1. Division",
+    "sort": "999",
+    "last_update": "2017-09-04 19:30:20",
+    "total": "1"
+  },
+  "12": {
+    "id": "12",
+    "category": "8",
+    "tr": "Süperligaen",
+    "en": "Superligaen",
+    "de": "Superligaen",
+    "sort": "999",
+    "last_update": "2017-09-04 19:00:19",
+    "total": "7"
+  },
+  "13": {
+    "id": "13",
+    "category": "8",
+    "tr": "1.Lig",
+    "en": "1st Division",
+    "de": "1. Division",
+    "sort": "999",
+    "last_update": "2017-09-04 11:00:19",
+    "total": "6"
+  },
+  "15": {
+    "id": "15",
+    "category": "8",
+    "tr": "Danimarka Kupası",
+    "en": "DBU Pokalen",
+    "de": "DBU Pokalen",
+    "sort": "999",
+    "last_update": "2017-09-04 16:00:17",
+    "total": "5"
+  },
+  "18": {
+    "id": "18",
+    "category": "26",
+    "tr": "ABD MLS",
+    "en": "Major League Soccer",
+    "de": "Major League Soccer",
+    "sort": "999",
+    "last_update": "2017-09-04 03:00:14",
+    "total": "12"
+  },
+  "19": {
+    "id": "19",
+    "category": "7",
+    "tr": "Ligue 2",
+    "en": "Ligue 2",
+    "de": "Ligue 2",
+    "sort": "2",
+    "last_update": "2017-09-04 21:00:20",
+    "total": "10"
+  },
+  "24": {
+    "id": "24",
+    "category": "9",
+    "tr": "Allsvenskan",
+    "en": "Allsvenskan",
+    "de": "Allsvenskan",
+    "sort": "999",
+    "last_update": "2017-09-04 19:00:19",
+    "total": "8"
+  },
+  "25": {
+    "id": "25",
+    "category": "16",
+    "tr": "MLB",
+    "en": "MLB",
+    "de": "MLB",
+    "sort": "999",
+    "last_update": "2017-09-05 03:30:17",
+    "total": "15"
+  },
+  "27": {
+    "id": "27",
+    "category": "9",
+    "tr": "Superettan",
+    "en": "Superettan",
+    "de": "Superettan",
+    "sort": "999",
+    "last_update": "2017-09-04 21:00:20",
+    "total": "8"
+  },
+  "28": {
+    "id": "28",
+    "category": "12",
+    "tr": "Primera Lig",
+    "en": "Primera Division, Apertura",
+    "de": "Primera Division, Apertura",
+    "sort": "999",
+    "last_update": "2017-09-04 01:30:15",
+    "total": "9"
+  },
+  "29": {
+    "id": "29",
+    "category": "17",
+    "tr": "Bundesliga",
+    "en": "Bundesliga",
+    "de": "Bundesliga",
+    "sort": "999",
+    "last_update": "2017-09-03 16:30:14",
+    "total": "5"
+  },
+  "30": {
+    "id": "30",
+    "category": "17",
+    "tr": "Erste Liga",
+    "en": "Erste Liga",
+    "de": "Erste Liga",
+    "sort": "999",
+    "last_update": "2017-09-02 18:00:21",
+    "total": "5"
+  },
+  "31": {
+    "id": "31",
+    "category": "19",
+    "tr": "Veikkausliiga",
+    "en": "Veikkausliiga",
+    "de": "Veikkausliiga",
+    "sort": "999",
+    "last_update": "2017-09-04 16:00:17",
+    "total": "8"
+  },
+  "33": {
+    "id": "33",
+    "category": "31",
+    "tr": "Seri A",
+    "en": "Serie A",
+    "de": "Serie A",
+    "sort": "1",
+    "last_update": "2017-09-03 21:00:17",
+    "total": "10"
+  },
+  "34": {
+    "id": "34",
+    "category": "31",
+    "tr": "Seri B",
+    "en": "Serie B",
+    "de": "Serie B",
+    "sort": "2",
+    "last_update": "2017-09-04 21:30:20",
+    "total": "11"
+  },
+  "36": {
+    "id": "36",
+    "category": "32",
+    "tr": "LaLiga",
+    "en": "LaLiga",
+    "de": "LaLiga",
+    "sort": "1",
+    "last_update": "2017-09-04 21:00:20",
+    "total": "10"
+  },
+  "37": {
+    "id": "37",
+    "category": "32",
+    "tr": "LaLiga 2",
+    "en": "LaLiga 2",
+    "de": "LaLiga 2",
+    "sort": "999",
+    "last_update": "2017-09-04 22:00:21",
+    "total": "11"
+  },
+  "38": {
+    "id": "38",
+    "category": "33",
+    "tr": "Birinci Grup A",
+    "en": "First Division A",
+    "de": "First Division A",
+    "sort": "999",
+    "last_update": "2017-09-03 20:00:11",
+    "total": "8"
+  },
+  "39": {
+    "id": "39",
+    "category": "35",
+    "tr": "Eredivisie",
+    "en": "Eredivisie",
+    "de": "Eredivisie",
+    "sort": "1",
+    "last_update": "2017-09-03 17:00:15",
+    "total": "9"
+  },
+  "40": {
+    "id": "40",
+    "category": "35",
+    "tr": "Eerste Divisie",
+    "en": "Eerste Divisie",
+    "de": "Eerste Divisie",
+    "sort": "4",
+    "last_update": "2017-09-04 22:00:21",
+    "total": "8"
+  },
+  "41": {
+    "id": "41",
+    "category": "30",
+    "tr": "2. Bundesliga",
+    "en": "2nd Bundesliga",
+    "de": "2. Bundesliga",
+    "sort": "2",
+    "last_update": "2017-09-04 20:30:20",
+    "total": "9"
+  },
+  "42": {
+    "id": "42",
+    "category": "30",
+    "tr": "Bundesliga",
+    "en": "Bundesliga",
+    "de": "Bundesliga",
+    "sort": "1",
+    "last_update": "2017-09-03 18:00:19",
+    "total": "9"
+  },
+  "46": {
+    "id": "46",
+    "category": "27",
+    "tr": "Eşleştirmeler",
+    "en": "Matchups",
+    "de": "Matchups",
+    "sort": "999",
+    "last_update": "2017-09-02 23:00:13",
+    "total": "1"
+  },
+  "47": {
+    "id": "47",
+    "category": "43",
+    "tr": "NFL",
+    "en": "NFL",
+    "de": "NFL",
+    "sort": "999",
+    "last_update": "2017-09-05 04:30:16",
+    "total": "17"
+  },
+  "48": {
+    "id": "48",
+    "category": "14",
+    "tr": "1.HNL Ligi",
+    "en": "1. HNL",
+    "de": "1.HNL",
+    "sort": "1",
+    "last_update": "2017-09-03 19:00:16",
+    "total": "5"
+  },
+  "49": {
+    "id": "49",
+    "category": "18",
+    "tr": "1. Lig",
+    "en": "1. Liga",
+    "de": "1. Liga",
+    "sort": "999",
+    "last_update": "2017-09-03 18:00:19",
+    "total": "8"
+  },
+  "50": {
+    "id": "50",
+    "category": "11",
+    "tr": "NB I",
+    "en": "NB I",
+    "de": "NB I",
+    "sort": "999",
+    "last_update": "2017-09-03 17:00:15",
+    "total": "7"
+  },
+  "52": {
+    "id": "52",
+    "category": "44",
+    "tr": "Premier Lig",
+    "en": "Primeira Liga",
+    "de": "Primeira Liga",
+    "sort": "1",
+    "last_update": "2017-09-04 21:00:20",
+    "total": "9"
+  },
+  "53": {
+    "id": "53",
+    "category": "21",
+    "tr": "Premier Lig",
+    "en": "Premier League",
+    "de": "Premier League",
+    "sort": "1",
+    "last_update": "2017-09-04 16:30:14",
+    "total": "8"
+  },
+  "54": {
+    "id": "54",
+    "category": "22",
+    "tr": "Premier Lig",
+    "en": "Premiership",
+    "de": "Premiership",
+    "sort": "999",
+    "last_update": "2017-09-02 16:00:09",
+    "total": "6"
+  },
+  "55": {
+    "id": "55",
+    "category": "22",
+    "tr": "1. Lig",
+    "en": "Championship",
+    "de": "Championship",
+    "sort": "999",
+    "last_update": "2017-09-03 23:30:17",
+    "total": "5"
+  },
+  "56": {
+    "id": "56",
+    "category": "22",
+    "tr": "1. Lig",
+    "en": "League One",
+    "de": "League One",
+    "sort": "999",
+    "last_update": "2017-09-03 23:30:17",
+    "total": "5"
+  },
+  "57": {
+    "id": "57",
+    "category": "22",
+    "tr": "2. Lig",
+    "en": "League Two",
+    "de": "League Two",
+    "sort": "999",
+    "last_update": "2017-09-04 00:00:15",
+    "total": "5"
+  },
+  "62": {
+    "id": "62",
+    "category": "46",
+    "tr": "Süper Lig",
+    "en": "Super Lig",
+    "de": "Süper Lig",
+    "sort": "1",
+    "last_update": "2017-09-04 19:00:19",
+    "total": "9"
+  },
+  "64": {
+    "id": "64",
+    "category": "47",
+    "tr": "Ekstraklasa",
+    "en": "Ekstraklasa",
+    "de": "Ekstraklasa",
+    "sort": "999",
+    "last_update": "2017-09-04 18:00:19",
+    "total": "8"
+  },
+  "68": {
+    "id": "68",
+    "category": "48",
+    "tr": "Primera Division",
+    "en": "Primera Division, Torneo Inicial",
+    "de": "Primera Division, Torneo Inicial",
+    "sort": "3",
+    "last_update": "2017-09-05 02:30:16",
+    "total": "14"
+  },
+  "72": {
+    "id": "72",
+    "category": "1",
+    "tr": "Ulusal Lig",
+    "en": "National League",
+    "de": "National League",
+    "sort": "6",
+    "last_update": "2017-09-03 15:30:09",
+    "total": "13"
+  },
+  "78": {
+    "id": "78",
+    "category": "5",
+    "tr": "Toppserien, Bayanlar",
+    "en": "Toppserien, Women",
+    "de": "Toppserien, Frauen",
+    "sort": "999",
+    "last_update": "2017-09-04 22:00:21",
+    "total": "2"
+  },
+  "82": {
+    "id": "82",
+    "category": "52",
+    "tr": "J-Lig",
+    "en": "J.League",
+    "de": "J-League",
+    "sort": "999",
+    "last_update": "2017-09-03 11:30:06",
+    "total": "9"
+  },
+  "83": {
+    "id": "83",
+    "category": "13",
+    "tr": "Brezilya Serie A",
+    "en": "Brasileiro Serie A",
+    "de": "Brasileiro Serie A",
+    "sort": "1",
+    "last_update": "2017-09-05 01:00:18",
+    "total": "10"
+  },
+  "84": {
+    "id": "84",
+    "category": "1",
+    "tr": "2. Lig",
+    "en": "League Two",
+    "de": "League Two",
+    "sort": "4",
+    "last_update": "2017-09-03 13:00:08",
+    "total": "12"
+  },
+  "86": {
+    "id": "86",
+    "category": "393",
+    "tr": "Kulüpler Arası Hazırlık Maçları",
+    "en": "Club Friendly Games",
+    "de": "Freundschaftsspiele",
+    "sort": "999",
+    "last_update": "2017-09-04 16:30:14",
+    "total": "1"
+  },
+  "92": {
+    "id": "92",
+    "category": "23",
+    "tr": "Superliga",
+    "en": "Superliga",
+    "de": "Superliga",
+    "sort": "999",
+    "last_update": "2017-09-03 19:00:16",
+    "total": "6"
+  },
+  "93": {
+    "id": "93",
+    "category": "41",
+    "tr": "DEL Almanya Buz Hokeyi Ligi",
+    "en": "DEL",
+    "de": "DEL",
+    "sort": "999",
+    "last_update": "2017-09-04 11:00:19",
+    "total": "7"
+  },
+  "95": {
+    "id": "95",
+    "category": "53",
+    "tr": "Bundesliga",
+    "en": "Bundesliga",
+    "de": "Bundesliga",
+    "sort": "999",
+    "last_update": "2017-09-04 16:00:17",
+    "total": "4"
+  },
+  "96": {
+    "id": "96",
+    "category": "54",
+    "tr": "Ulusal Lig A",
+    "en": "National League A",
+    "de": "National League A",
+    "sort": "999",
+    "last_update": "2017-09-03 13:00:08",
+    "total": "11"
+  },
+  "99": {
+    "id": "99",
+    "category": "58",
+    "tr": "Eliteserien",
+    "en": "Eliteserien",
+    "de": "Eliteserien",
+    "sort": "999",
+    "last_update": "2017-09-04 17:00:17",
+    "total": "3"
+  },
+  "102": {
+    "id": "102",
+    "category": "10",
+    "tr": "Urvalsdeild",
+    "en": "Urvalsdeild",
+    "de": "Urvalsdeild",
+    "sort": "999",
+    "last_update": "2017-09-03 21:30:19",
+    "total": "6"
+  },
+  "108": {
+    "id": "108",
+    "category": "40",
+    "tr": "SM-Ligi",
+    "en": "Liiga",
+    "de": "Liiga",
+    "sort": "999",
+    "last_update": "2017-09-03 22:30:19",
+    "total": "7"
+  },
+  "109": {
+    "id": "109",
+    "category": "42",
+    "tr": "Extraliga",
+    "en": "Extraliga",
+    "de": "Extraliga",
+    "sort": "999",
+    "last_update": "2017-09-04 23:00:21",
+    "total": "14"
+  },
+  "112": {
+    "id": "112",
+    "category": "64",
+    "tr": "Metal Ligaen",
+    "en": "Metal Ligaen",
+    "de": "Metal Ligaen",
+    "sort": "999",
+    "last_update": "2017-09-04 13:00:15",
+    "total": "6"
+  },
+  "114": {
+    "id": "114",
+    "category": "60",
+    "tr": "Elitserien, Erkekler",
+    "en": "Elitserien",
+    "de": "Elitserien",
+    "sort": "999",
+    "last_update": "2017-09-04 00:00:15",
+    "total": "1"
+  },
+  "120": {
+    "id": "120",
+    "category": "38",
+    "tr": "Eliteserien",
+    "en": "Eliteserien",
+    "de": "Eliteserien",
+    "sort": "999",
+    "last_update": "2017-09-03 18:30:15",
+    "total": "5"
+  },
+  "125": {
+    "id": "125",
+    "category": "65",
+    "tr": "EHL",
+    "en": "EHL",
+    "de": "EHL",
+    "sort": "999",
+    "last_update": "2017-09-01 19:30:12",
+    "total": "6"
+  },
+  "127": {
+    "id": "127",
+    "category": "67",
+    "tr": "Süper Lig",
+    "en": "Super League",
+    "de": "Super League",
+    "sort": "999",
+    "last_update": "2017-09-04 18:30:19",
+    "total": "8"
+  },
+  "129": {
+    "id": "129",
+    "category": "97",
+    "tr": "Bölgesel Lig Batı",
+    "en": "Regionalliga West",
+    "de": "Regionalliga West",
+    "sort": null,
+    "last_update": "2017-09-04 18:30:19",
+    "total": "2"
+  },
+  "145": {
+    "id": "145",
+    "category": "69",
+    "tr": "HLA, Erkekler",
+    "en": "HLA",
+    "de": "HLA",
+    "sort": "999",
+    "last_update": "2017-09-04 18:30:19",
+    "total": "2"
+  },
+  "150": {
+    "id": "150",
+    "category": "32",
+    "tr": "Kral Kupası",
+    "en": "Copa del Rey",
+    "de": "Copa del Rey",
+    "sort": "2",
+    "last_update": "2017-09-04 19:00:19",
+    "total": "22"
+  },
+  "169": {
+    "id": "169",
+    "category": "24",
+    "tr": "Slovenya Kupası",
+    "en": "Slovenia Cup",
+    "de": "Slowenien Cup",
+    "sort": null,
+    "last_update": "2017-09-04 15:00:15",
+    "total": "2"
+  },
+  "219": {
+    "id": "219",
+    "category": "77",
+    "tr": "Romanya 1. Ligi",
+    "en": "Liga I",
+    "de": "Liga I",
+    "sort": "999",
+    "last_update": "2017-09-04 19:30:20",
+    "total": "7"
+  },
+  "232": {
+    "id": "232",
+    "category": "78",
+    "tr": "Birinci Profesyonel Lig",
+    "en": "First Professional League",
+    "de": "First Professional League",
+    "sort": "999",
+    "last_update": "2017-09-04 19:00:19",
+    "total": "8"
+  },
+  "273": {
+    "id": "273",
+    "category": "48",
+    "tr": "Kupa",
+    "en": "Copa Argentina",
+    "de": "Copa Argentina",
+    "sort": "5",
+    "last_update": "2017-09-05 03:30:17",
+    "total": "1"
+  },
+  "283": {
+    "id": "283",
+    "category": "13",
+    "tr": "Brezilya Kupası",
+    "en": "Copa do Brasil",
+    "de": "Copa do Brasil",
+    "sort": "999",
+    "last_update": "2017-09-01 04:30:08",
+    "total": "1"
+  },
+  "384": {
+    "id": "384",
+    "category": "86",
+    "tr": "Premier Lig",
+    "en": "Premier League",
+    "de": "Premier League",
+    "sort": "1",
+    "last_update": "2017-09-04 21:00:20",
+    "total": "6"
+  },
+  "419": {
+    "id": "419",
+    "category": "89",
+    "tr": "Klasman 1",
+    "en": "County Championship, Division 1",
+    "de": "County Championship, Division 1",
+    "sort": "999",
+    "last_update": "2017-09-04 12:00:18",
+    "total": "4"
+  },
+  "420": {
+    "id": "420",
+    "category": "89",
+    "tr": "Klasman 2",
+    "en": "County Championship, Division 2",
+    "de": "County Championship, Division 2",
+    "sort": "999",
+    "last_update": "2017-09-04 11:30:18",
+    "total": "5"
+  },
+  "470": {
+    "id": "470",
+    "category": "95",
+    "tr": "Danimarka Serisi, Grup 3",
+    "en": "Danmarksserien, Pulje 3",
+    "de": "Danmarksserien, Pulje 3",
+    "sort": null,
+    "last_update": "2017-09-05 04:00:17",
+    "total": "1"
+  },
+  "527": {
+    "id": "527",
+    "category": "19",
+    "tr": "Ykkonen Ligi",
+    "en": "Ykkonen",
+    "de": "Ykkonen",
+    "sort": "999",
+    "last_update": "2017-09-04 17:00:17",
+    "total": "5"
+  },
+  "582": {
+    "id": "582",
+    "category": "10",
+    "tr": "1 bölüm",
+    "en": "1 deild",
+    "de": "1 deild",
+    "sort": "999",
+    "last_update": "2017-09-04 21:30:20",
+    "total": "6"
+  },
+  "651": {
+    "id": "651",
+    "category": "98",
+    "tr": "Extraliga",
+    "en": "Extraliga",
+    "de": "Extraliga",
+    "sort": "999",
+    "last_update": "2017-09-01 18:30:21",
+    "total": "5"
+  },
+  "652": {
+    "id": "652",
+    "category": "99",
+    "tr": "Çin Süper Ligi",
+    "en": "Chinese Super League",
+    "de": "Chinese Super League",
+    "sort": "999",
+    "last_update": "2017-09-04 20:30:20",
+    "total": "8"
+  },
+  "673": {
+    "id": "673",
+    "category": "101",
+    "tr": "KHL",
+    "en": "KHL",
+    "de": "KHL",
+    "sort": "999",
+    "last_update": "2017-09-04 20:30:20",
+    "total": "23"
+  },
+  "843": {
+    "id": "843",
+    "category": "18",
+    "tr": "FNL",
+    "en": "FNL",
+    "de": "FNL",
+    "sort": "999",
+    "last_update": "2017-09-04 18:00:19",
+    "total": "8"
+  },
+  "876": {
+    "id": "876",
+    "category": "82",
+    "tr": "Pro 14",
+    "en": "Pro 14",
+    "de": "Pro 14",
+    "sort": "999",
+    "last_update": "2017-09-04 22:00:21",
+    "total": "7"
+  },
+  "883": {
+    "id": "883",
+    "category": "130",
+    "tr": "Premiership",
+    "en": "Premiership",
+    "de": "Premiership",
+    "sort": "999",
+    "last_update": "2017-09-02 17:30:18",
+    "total": "1"
+  },
+  "904": {
+    "id": "904",
+    "category": "131",
+    "tr": "Premier Lig",
+    "en": "Premier League",
+    "de": "Premier League",
+    "sort": null,
+    "last_update": "2017-09-04 21:30:20",
+    "total": "5"
+  },
+  "966": {
+    "id": "966",
+    "category": "252",
+    "tr": "Kuzey Premier Ligi, Premier Lig",
+    "en": "Northern Premier League, Premier Division",
+    "de": "Northern Premier League, Premier Division",
+    "sort": "999",
+    "last_update": "2017-09-04 23:00:21",
+    "total": "10"
+  },
+  "1060": {
+    "id": "1060",
+    "category": "25",
+    "tr": "Süper Lig",
+    "en": "Super League",
+    "de": "Super League",
+    "sort": "999",
+    "last_update": "2017-09-03 16:00:10",
+    "total": "5"
+  },
+  "1116": {
+    "id": "1116",
+    "category": "21",
+    "tr": "Futbol Ulusal Ligi",
+    "en": "Football National League",
+    "de": "Football National League",
+    "sort": "999",
+    "last_update": "2017-09-03 12:30:07",
+    "total": "10"
+  },
+  "1204": {
+    "id": "1204",
+    "category": "19",
+    "tr": "Kakkonen ita",
+    "en": "Kakkonen, Ita",
+    "de": "Kakkonen, Ita",
+    "sort": "999",
+    "last_update": "2017-09-03 18:00:19",
+    "total": "1"
+  },
+  "1330": {
+    "id": "1330",
+    "category": "82",
+    "tr": "Rugby Şampiyonası",
+    "en": "The Rugby Championship",
+    "de": "The Rugby Championship",
+    "sort": "999",
+    "last_update": "2017-09-02 12:00:08",
+    "total": "2"
+  },
+  "1427": {
+    "id": "1427",
+    "category": "47",
+    "tr": "I Ligi",
+    "en": "I liga",
+    "de": "I liga",
+    "sort": "999",
+    "last_update": "2017-09-04 15:30:15",
+    "total": "9"
+  },
+  "1434": {
+    "id": "1434",
+    "category": "4",
+    "tr": "Dünya Kupası Güney Amerika Elemeleri",
+    "en": "World Cup Qualification, CONMEBOL",
+    "de": "WM Qualifikation, CONMEBOL",
+    "sort": "999",
+    "last_update": "2017-09-01 06:00:07",
+    "total": "5"
+  },
+  "1449": {
+    "id": "1449",
+    "category": "13",
+    "tr": "Brezilya Serie B",
+    "en": "Brasileiro Serie B",
+    "de": "Brasileiro Serie B",
+    "sort": "2",
+    "last_update": "2017-09-05 02:01:55",
+    "total": "9"
+  },
+  "1485": {
+    "id": "1485",
+    "category": "56",
+    "tr": "Dostluk Maçı",
+    "en": "Club Friendlies",
+    "de": "Club Friendlies",
+    "sort": "999",
+    "last_update": "2017-09-05 06:00:16",
+    "total": "5"
+  },
+  "1503": {
+    "id": "1503",
+    "category": "82",
+    "tr": "NPC",
+    "en": "NPC",
+    "de": "NPC",
+    "sort": null,
+    "last_update": "2017-09-04 17:00:17",
+    "total": "6"
+  },
+  "1600": {
+    "id": "1600",
+    "category": "82",
+    "tr": "Fransa - Top 14",
+    "en": "France - Top 14",
+    "de": "Frankreich - Top 14",
+    "sort": "999",
+    "last_update": "2017-09-04 21:30:20",
+    "total": "7"
+  },
+  "1760": {
+    "id": "1760",
+    "category": "4",
+    "tr": "Dünya Kupası Elemeleri, UEFA Grup 4",
+    "en": "World Cup Qual. UEFA Group D",
+    "de": "WM Qualifikation, UEFA Gruppe D",
+    "sort": "999",
+    "last_update": "2017-09-02 22:00:13",
+    "total": "3"
+  },
+  "1763": {
+    "id": "1763",
+    "category": "4",
+    "tr": "Dünya Kupası Avrupa Elemeleri 7. Grup",
+    "en": "World Cup Qual. UEFA Group G",
+    "de": "WM Qualifikation, UEFA Gruppe G",
+    "sort": "999",
+    "last_update": "2017-09-02 22:00:13",
+    "total": "3"
+  },
+  "2348": {
+    "id": "2348",
+    "category": "252",
+    "tr": "Konferans Kuzey",
+    "en": "National League North",
+    "de": "National League Nord",
+    "sort": "999",
+    "last_update": "2017-09-03 17:30:17",
+    "total": "11"
+  },
+  "2349": {
+    "id": "2349",
+    "category": "252",
+    "tr": "Konferans Güney",
+    "en": "National League South",
+    "de": "National League Süd",
+    "sort": "999",
+    "last_update": "2017-09-03 17:30:17",
+    "total": "10"
+  },
+  "3008": {
+    "id": "3008",
+    "category": "101",
+    "tr": "VHL",
+    "en": "VHL",
+    "de": "VHL",
+    "sort": "999",
+    "last_update": "2017-09-02 16:00:09",
+    "total": "10"
+  },
+  "3034": {
+    "id": "3034",
+    "category": "52",
+    "tr": "J-Lig 2",
+    "en": "J.League 2",
+    "de": "J.League 2",
+    "sort": "999",
+    "last_update": "2017-09-03 21:00:17",
+    "total": "11"
+  },
+  "3284": {
+    "id": "3284",
+    "category": "291",
+    "tr": "K-Ligi Klasik",
+    "en": "K-League Classic",
+    "de": "K-League Classic",
+    "sort": null,
+    "last_update": "2017-09-03 12:00:07",
+    "total": "6"
+  },
+  "3643": {
+    "id": "3643",
+    "category": "103",
+    "tr": "Avrupa Şampiyonası, Erkekler Grup A",
+    "en": "European Championship, Men Group A",
+    "de": "EM, Gruppe A",
+    "sort": null,
+    "last_update": "2017-09-03 23:00:17",
+    "total": "3"
+  },
+  "3644": {
+    "id": "3644",
+    "category": "103",
+    "tr": "Avrupa Şampiyonası, Erkekler Grup B",
+    "en": "European Championship, Men Group B",
+    "de": "EM, Gruppe B",
+    "sort": null,
+    "last_update": "2017-09-04 00:00:15",
+    "total": "3"
+  },
+  "3645": {
+    "id": "3645",
+    "category": "103",
+    "tr": "Avrupa Şampiyonası, Erkekler Grup C",
+    "en": "European Championship, Men Group C",
+    "de": "EM, Gruppe C",
+    "sort": null,
+    "last_update": "2017-09-04 23:00:21",
+    "total": "3"
+  },
+  "3646": {
+    "id": "3646",
+    "category": "103",
+    "tr": "Avrupa Şampiyonası, Erkekler Grup D",
+    "en": "European Championship, Men Group D",
+    "de": "EM, Gruppe D",
+    "sort": null,
+    "last_update": "2017-09-04 23:30:19",
+    "total": "3"
+  },
+  "4193": {
+    "id": "4193",
+    "category": "4",
+    "tr": "Asya Uluslar Kupası Elemeleri A Grubu",
+    "en": "AFC Asian Cup, Qualification Group A",
+    "de": "AFC Asian Cup, Qualifikation Gruppe A",
+    "sort": "999",
+    "last_update": "2017-09-03 13:00:08",
+    "total": "2"
+  },
+  "4194": {
+    "id": "4194",
+    "category": "4",
+    "tr": "Asya Uluslar Kupası Elemeleri B Grubu",
+    "en": "AFC Asian Cup, Qualification Group B",
+    "de": "AFC Asian Cup, Qualifikation Gruppe B",
+    "sort": "999",
+    "last_update": "2017-09-03 13:00:08",
+    "total": "2"
+  },
+  "4195": {
+    "id": "4195",
+    "category": "4",
+    "tr": "Asya Uluslar Kupası Elemeleri C Grubu",
+    "en": "AFC Asian Cup, Qualification Group C",
+    "de": "AFC Asian Cup, Qualifikation Gruppe C",
+    "sort": "999",
+    "last_update": "2017-09-03 13:00:08",
+    "total": "2"
+  },
+  "4196": {
+    "id": "4196",
+    "category": "4",
+    "tr": "Asya Uluslar Kupası Elemeleri D Grubu",
+    "en": "AFC Asian Cup, Qualification Group D",
+    "de": "AFC Asian Cup, Qualifikation Gruppe D",
+    "sort": "999",
+    "last_update": "2017-09-03 13:00:08",
+    "total": "2"
+  },
+  "4197": {
+    "id": "4197",
+    "category": "4",
+    "tr": "Asya Uluslar Kupası Elemeleri E Grubu",
+    "en": "AFC Asian Cup, Qualification Group E",
+    "de": "AFC Asian Cup, Qualifikation Gruppe E",
+    "sort": "999",
+    "last_update": "2017-09-03 13:00:08",
+    "total": "2"
+  },
+  "4198": {
+    "id": "4198",
+    "category": "4",
+    "tr": "Asya Uluslar Kupası Elemeleri F grubu",
+    "en": "AFC Asian Cup, Qualification Group F",
+    "de": "AFC Asian Cup, Qualifikationsgruppe F",
+    "sort": "999",
+    "last_update": "2017-09-03 13:00:08",
+    "total": "2"
+  },
+  "4395": {
+    "id": "4395",
+    "category": "384",
+    "tr": "KBO Ligi",
+    "en": "KBO League",
+    "de": "KBO League",
+    "sort": "999",
+    "last_update": "2017-09-04 13:00:15",
+    "total": "5"
+  },
+  "5799": {
+    "id": "5799",
+    "category": "392",
+    "tr": "U19 Hazırlık Maçları",
+    "en": "U19 Int. Friendly Games",
+    "de": "U19 Int. Freundschaftsspiele",
+    "sort": "999",
+    "last_update": "2017-09-04 20:30:20",
+    "total": "2"
+  },
+  "6160": {
+    "id": "6160",
+    "category": "392",
+    "tr": "U21 Euro Elemeleri 1. Grup",
+    "en": "U21 EURO, Qualification, Group 1",
+    "de": "U21 EM-Qualifikation, Gruppe 1",
+    "sort": "999",
+    "last_update": "2017-09-04 19:30:20",
+    "total": "1"
+  },
+  "6161": {
+    "id": "6161",
+    "category": "392",
+    "tr": "U21 Euro Elemeleri 2. Grup",
+    "en": "U21 EURO, Qualification, Group 2",
+    "de": "U21 EM-Qualifikation, Gruppe 2",
+    "sort": "999",
+    "last_update": "2017-09-04 20:30:20",
+    "total": "2"
+  },
+  "6162": {
+    "id": "6162",
+    "category": "392",
+    "tr": "U21 Euro Elemeleri 3. Grup",
+    "en": "U21 EURO, Qualification, Group 3",
+    "de": "U21 EM-Qualifikation, Gruppe 3",
+    "sort": "999",
+    "last_update": "2017-09-03 12:00:07",
+    "total": "2"
+  },
+  "6163": {
+    "id": "6163",
+    "category": "392",
+    "tr": "U21 Euro Elemeleri 4. Grup",
+    "en": "U21 EURO, Qualification, Group 4",
+    "de": "U21 EM-Qualifikation, Gruppe 4",
+    "sort": "999",
+    "last_update": "2017-09-03 12:00:07",
+    "total": "3"
+  },
+  "6164": {
+    "id": "6164",
+    "category": "392",
+    "tr": "U21 Euro Elemeleri 5. Grup",
+    "en": "U21 EURO, Qualification, Group 5",
+    "de": "U21 EM-Qualifikation, Gruppe 5",
+    "sort": "999",
+    "last_update": "2017-09-03 12:00:07",
+    "total": "3"
+  },
+  "6165": {
+    "id": "6165",
+    "category": "392",
+    "tr": "U21 Euro Elemeleri 6. Grup",
+    "en": "U21 EURO, Qualification, Group 6",
+    "de": "U21 EM-Qualifikation, Gruppe 6",
+    "sort": "999",
+    "last_update": "2017-09-03 12:00:07",
+    "total": "3"
+  },
+  "6166": {
+    "id": "6166",
+    "category": "392",
+    "tr": "U21 Euro Elemeleri 7. Grup",
+    "en": "U21 EURO, Qualification, Group 7",
+    "de": "U21 EM-Qualifikation, Gruppe 7",
+    "sort": "999",
+    "last_update": "2017-09-03 12:00:07",
+    "total": "2"
+  },
+  "6167": {
+    "id": "6167",
+    "category": "392",
+    "tr": "U21 Euro Elemeleri 8. Grup",
+    "en": "U21 EURO, Qualification, Group 8",
+    "de": "U21 EM-Qualifikation, Gruppe 8",
+    "sort": "999",
+    "last_update": "2017-09-02 15:00:07",
+    "total": "2"
+  },
+  "6168": {
+    "id": "6168",
+    "category": "392",
+    "tr": "U21 Euro Elemeleri 9. Grup",
+    "en": "U21 EURO, Qualification, Group 9",
+    "de": "U21 EM-Qualifikation, Gruppe 9",
+    "sort": "999",
+    "last_update": "2017-09-03 12:00:07",
+    "total": "2"
+  },
+  "6238": {
+    "id": "6238",
+    "category": "392",
+    "tr": "U20 Hazırlık Maçları",
+    "en": "U20 Friendly Games",
+    "de": "U20 Freundschaftsspiele",
+    "sort": "999",
+    "last_update": "2017-09-04 20:00:19",
+    "total": "1"
+  },
+  "7002": {
+    "id": "7002",
+    "category": "22",
+    "tr": "İskoçya Gençler Ligi",
+    "en": "Development League",
+    "de": "Development League",
+    "sort": "999",
+    "last_update": "2017-09-04 14:30:13",
+    "total": "6"
+  },
+  "7255": {
+    "id": "7255",
+    "category": "4",
+    "tr": "Dünya Kupası Avrupa Elemeleri 9. Grup",
+    "en": "World Cup Qual. UEFA Group I",
+    "de": "WM Qualifikation, UEFA Gruppe I",
+    "sort": "999",
+    "last_update": "2017-09-02 22:00:13",
+    "total": "3"
+  },
+  "8343": {
+    "id": "8343",
+    "category": "30",
+    "tr": "3. Lig",
+    "en": "3rd Liga",
+    "de": "3. Liga",
+    "sort": "3",
+    "last_update": "2017-09-03 14:00:07",
+    "total": "10"
+  },
+  "8517": {
+    "id": "8517",
+    "category": "4",
+    "tr": "Dünya Kupası Elemeleri, AFC, 3. Tur, Grup A",
+    "en": "World Cup Qualification, AFC, Round 3, Gr. A",
+    "de": "WM Qualifikation, AFC, Runde 2, Gr. F",
+    "sort": "999",
+    "last_update": "2017-09-01 22:00:09",
+    "total": "3"
+  },
+  "8519": {
+    "id": "8519",
+    "category": "4",
+    "tr": "Dünya Kupası Elemeleri, AFC, 3. Tur, Grup B",
+    "en": "World Cup Qualification, AFC, Round 3, Gr. B",
+    "de": "WM Qualifikation, AFC, Runde 2, Gr. F",
+    "sort": "999",
+    "last_update": "2017-09-01 22:00:09",
+    "total": "3"
+  },
+  "9071": {
+    "id": "9071",
+    "category": "83",
+    "tr": "NRL Playoffları",
+    "en": "NRL, Playoffs",
+    "de": "NRL, Playoffs",
+    "sort": "999",
+    "last_update": "2017-09-04 22:00:21",
+    "total": "4"
+  },
+  "9133": {
+    "id": "9133",
+    "category": "49",
+    "tr": "Şili Kupası",
+    "en": "Copa Chile",
+    "de": "Copa Chile",
+    "sort": "999",
+    "last_update": "2017-09-04 02:01:56",
+    "total": "2"
+  },
+  "9360": {
+    "id": "9360",
+    "category": "4",
+    "tr": "World Cup Qualification, CAF 3rd Round, Group A",
+    "en": "World Cup Qualification, CAF 3rd Round, Group A",
+    "de": "WM Qualifikation, CAF 3. Runde, Gruppe A",
+    "sort": "999",
+    "last_update": "2017-09-04 22:30:19",
+    "total": "1"
+  },
+  "9361": {
+    "id": "9361",
+    "category": "4",
+    "tr": "World Cup Qualification, CAF 3rd Round, Group B",
+    "en": "World Cup Qualification, CAF 3rd Round, Group B",
+    "de": "WM Qualifikation, CAF 3. Runde, Gruppe B",
+    "sort": "999",
+    "last_update": "2017-09-04 20:00:19",
+    "total": "1"
+  },
+  "9362": {
+    "id": "9362",
+    "category": "4",
+    "tr": "World Cup Qualification, CAF 3rd Round, Group C",
+    "en": "World Cup Qualification, CAF 3rd Round, Group C",
+    "de": "WM Qualifikation, CAF 3. Runde, Gruppe C",
+    "sort": "999",
+    "last_update": "2017-09-02 20:00:17",
+    "total": "2"
+  },
+  "9363": {
+    "id": "9363",
+    "category": "4",
+    "tr": "World Cup Qualification, CAF 3rd Round, Group D",
+    "en": "World Cup Qualification, CAF 3rd Round, Group D",
+    "de": "WM Qualifikation, CAF 3. Runde, Gruppe D",
+    "sort": "999",
+    "last_update": "2017-09-03 12:30:07",
+    "total": "2"
+  },
+  "9364": {
+    "id": "9364",
+    "category": "4",
+    "tr": "World Cup Qualification, CAF 3rd Round, Group E",
+    "en": "World Cup Qualification, CAF 3rd Round, Group E",
+    "de": "WM Qualifikation, CAF 3. Runde, Gruppe E",
+    "sort": "999",
+    "last_update": "2017-09-01 22:30:09",
+    "total": "2"
+  },
+  "11354": {
+    "id": "11354",
+    "category": "87",
+    "tr": "AFL Playoffları",
+    "en": "AFL Playoffs",
+    "de": "AFL Playoffs",
+    "sort": "999",
+    "last_update": "2017-09-02 12:00:08",
+    "total": "4"
+  },
+  "11421": {
+    "id": "11421",
+    "category": "101",
+    "tr": "MHL",
+    "en": "MHL",
+    "de": "MHL",
+    "sort": "999",
+    "last_update": "2017-09-05 01:30:16",
+    "total": "12"
+  },
+  "11716": {
+    "id": "11716",
+    "category": "136",
+    "tr": "FiVB Grand Champions Kupası,Bayanlar",
+    "en": "FIVB Grand Champions Cup, Women",
+    "de": "FIVB Grand Champions Cup, Frauen",
+    "sort": null,
+    "last_update": "2017-09-05 07:00:18",
+    "total": "2"
+  },
+  "17621": {
+    "id": "17621",
+    "category": "73",
+    "tr": "SEHA Ligi",
+    "en": "SEHA League",
+    "de": "SEHA League",
+    "sort": "999",
+    "last_update": "2017-09-04 17:30:18",
+    "total": "5"
+  },
+  "17654": {
+    "id": "17654",
+    "category": "805",
+    "tr": "Kenya Premier Ligi",
+    "en": "Premier League",
+    "de": "Premier League",
+    "sort": null,
+    "last_update": "2017-09-02 16:00:09",
+    "total": "1"
+  },
+  "21210": {
+    "id": "21210",
+    "category": "21",
+    "tr": "PFL, Ural-Povolzhye",
+    "en": "PFL, Ural-Povolzhye",
+    "de": "PFL, Ural-Povolzhye",
+    "sort": "999",
+    "last_update": "2017-09-04 14:00:14",
+    "total": "1"
+  },
+  "23533": {
+    "id": "23533",
+    "category": "4",
+    "tr": "World Cup Qualification, CONCACAF 5th round",
+    "en": "World Cup Qualification, CONCACAF 5th round",
+    "de": "World Cup Qualification, CONCACAF 5th round",
+    "sort": "999",
+    "last_update": "2017-09-02 07:00:06",
+    "total": "3"
+  },
+  "25548": {
+    "id": "25548",
+    "category": "26",
+    "tr": "Ulusal Kadınlar Futbol Ligi, Güz Sezonu",
+    "en": "North American Soccer League, Fall season",
+    "de": "North American Soccer League, Fall season",
+    "sort": "999",
+    "last_update": "2017-09-04 14:00:14",
+    "total": "1"
+  },
+  "29043": {
+    "id": "29043",
+    "category": "975",
+    "tr": "Karayipler Premier Ligi",
+    "en": "Caribbean Premier League",
+    "de": "Caribbean Premier League",
+    "sort": null,
+    "last_update": "2017-09-05 07:00:18",
+    "total": "1"
+  },
+  "31500": {
+    "id": "31500",
+    "category": "34",
+    "tr": "UPL,Kuzey Avustralya,Final Turu",
+    "en": "NPL, Western Australia, Final Round",
+    "de": "NPL, Western Australia, Finalrunde",
+    "sort": "999",
+    "last_update": "2017-09-04 23:00:21",
+    "total": "1"
+  },
+  "34954": {
+    "id": "34954",
+    "category": "1",
+    "tr": "FA Cup,Yükselme",
+    "en": "FA Cup, Qualification",
+    "de": "FA Cup, Qualifikation",
+    "sort": "999",
+    "last_update": "2017-09-04 20:30:20",
+    "total": "4"
+  },
+  "36794": {
+    "id": "36794",
+    "category": "47",
+    "tr": "2. Lig",
+    "en": "II Liga",
+    "de": "II Liga",
+    "sort": "999",
+    "last_update": "2017-09-04 20:30:20",
+    "total": "9"
+  },
+  "37884": {
+    "id": "37884",
+    "category": "31",
+    "tr": "Serie C, Girone A",
+    "en": "Serie C, Girone A",
+    "de": "Serie C, Girone A",
+    "sort": "999",
+    "last_update": "2017-09-04 23:30:19",
+    "total": "1"
+  },
+  "37886": {
+    "id": "37886",
+    "category": "31",
+    "tr": "Serie C, Girone C",
+    "en": "Serie C, Girone C",
+    "de": "Serie C, Girone C",
+    "sort": "999",
+    "last_update": "2017-09-04 23:30:19",
+    "total": "9"
+  },
+  "38557": {
+    "id": "38557",
+    "category": "266",
+    "tr": "Bowls Grand Prix",
+    "en": "Grand Prix Bowls",
+    "de": "Grand Prix Bowls",
+    "sort": "999",
+    "last_update": "2017-09-04 16:00:17",
+    "total": "3"
+  },
+  "45168": {
+    "id": "45168",
+    "category": "8",
+    "tr": "2. Lig, 1. Grup",
+    "en": "2nd Division, Pulje 1",
+    "de": "2nd Division, Pulje 1",
+    "sort": "999",
+    "last_update": "2017-09-05 06:30:15",
+    "total": "4"
+  },
+  "45169": {
+    "id": "45169",
+    "category": "8",
+    "tr": "2. Lig, 2. Grup",
+    "en": "2nd Division, Pulje 2",
+    "de": "2nd Division, Pulje 2",
+    "sort": "999",
+    "last_update": "2017-09-04 15:00:15",
+    "total": "3"
+  },
+  "45170": {
+    "id": "45170",
+    "category": "8",
+    "tr": "2. Lig, 3. Grup",
+    "en": "2nd Division, Pulje 3",
+    "de": "2nd Division, Pulje 3",
+    "sort": "999",
+    "last_update": "2017-09-04 15:00:15",
+    "total": "4"
+  },
+  "46113": {
+    "id": "46113",
+    "category": "83",
+    "tr": "Süper 8ler",
+    "en": "Super League, Super 8s",
+    "de": "Super League, Super 8s",
+    "sort": "999",
+    "last_update": "2017-09-04 19:00:19",
+    "total": "2"
+  },
+  "53265": {
+    "id": "53265",
+    "category": "82",
+    "tr": "İngiliz Premiership",
+    "en": "English Premiership",
+    "de": "English Premiership",
+    "sort": "999",
+    "last_update": "2017-09-04 21:30:20",
+    "total": "6"
+  },
+  "54395": {
+    "id": "54395",
+    "category": "33",
+    "tr": "Birinci Grup B, İlk Küme",
+    "en": "First Division B, First stage",
+    "de": "First Division B, First stage",
+    "sort": "999",
+    "last_update": "2017-09-04 20:00:19",
+    "total": "4"
+  },
+  "56822": {
+    "id": "56822",
+    "category": "3",
+    "tr": "New York, ABD",
+    "en": "US Open, New York, USA",
+    "de": "US Open, New York",
+    "sort": null,
+    "last_update": "2017-09-05 05:30:15",
+    "total": "4"
+  },
+  "56823": {
+    "id": "56823",
+    "category": "3",
+    "tr": "New York, ABD, Çiftler",
+    "en": "US Open, New York, USA, Doubles",
+    "de": "US Open Doppel, New York",
+    "sort": null,
+    "last_update": "2017-09-05 03:30:17",
+    "total": "4"
+  },
+  "56824": {
+    "id": "56824",
+    "category": "3",
+    "tr": "New York, ABD, Karma",
+    "en": "US Open, New York, USA, Mixed",
+    "de": "US Open Mix Doppel, New York",
+    "sort": null,
+    "last_update": "2017-09-05 02:30:16",
+    "total": "3"
+  },
+  "56826": {
+    "id": "56826",
+    "category": "6",
+    "tr": "New York, ABD",
+    "en": "US Open, New York, USA",
+    "de": "US Open, New York",
+    "sort": null,
+    "last_update": "2017-09-05 05:00:16",
+    "total": "3"
+  },
+  "56827": {
+    "id": "56827",
+    "category": "6",
+    "tr": "New York, ABD, Çiftler",
+    "en": "US Open, New York, USA, Doubles",
+    "de": "US Open Doppel, New York",
+    "sort": null,
+    "last_update": "2017-09-05 01:30:16",
+    "total": "4"
+  },
+  "59158": {
+    "id": "59158",
+    "category": "871",
+    "tr": "Dalian, China",
+    "en": "Dalian, China",
+    "de": "Dalian, China",
+    "sort": null,
+    "last_update": "2017-09-04 17:30:18",
+    "total": "16"
+  },
+  "59672": {
+    "id": "59672",
+    "category": "13",
+    "tr": "U20 Paulista 1st Division, Group 3",
+    "en": "U20 Paulista 1st Division, Group 3",
+    "de": "U20 Paulista 1st Division, Group 3",
+    "sort": null,
+    "last_update": "2017-09-04 13:00:15",
+    "total": "1"
+  },
+  "60734": {
+    "id": "60734",
+    "category": "105",
+    "tr": "Test Series England vs. West Indies",
+    "en": "Test Series England vs. West Indies",
+    "de": "Test Series England vs. West Indies",
+    "sort": null,
+    "last_update": "2017-08-31 12:00:08",
+    "total": "1"
+  },
+  "62636": {
+    "id": "62636",
+    "category": "96",
+    "tr": "La Vuelta a Espana, Stage 16",
+    "en": "La Vuelta a Espana, Stage 16",
+    "de": "La Vuelta a Espana, Stage 16",
+    "sort": null,
+    "last_update": "2017-09-04 09:30:17",
+    "total": "13"
+  },
+  "62849": {
+    "id": "62849",
+    "category": "72",
+    "tr": "Genoa, Italy",
+    "en": "Genoa, Italy",
+    "de": "Genua, Italien",
+    "sort": null,
+    "last_update": "2017-09-05 07:00:18",
+    "total": "9"
+  },
+  "62852": {
+    "id": "62852",
+    "category": "72",
+    "tr": "Seville, Spain",
+    "en": "Seville, Spain",
+    "de": "Sevilla, Spanien",
+    "sort": null,
+    "last_update": "2017-09-05 01:00:18",
+    "total": "11"
+  },
+  "62853": {
+    "id": "62853",
+    "category": "72",
+    "tr": "Seville, Spain, Doubles",
+    "en": "Seville, Spain, Doubles",
+    "de": "Sevilla Doppel, Spanien",
+    "sort": null,
+    "last_update": "2017-09-04 23:30:19",
+    "total": "5"
+  },
+  "62855": {
+    "id": "62855",
+    "category": "72",
+    "tr": "Alphen, Netherlands",
+    "en": "Alphen, Netherlands",
+    "de": "Alphen, Niederlande",
+    "sort": null,
+    "last_update": "2017-09-05 05:30:15",
+    "total": "13"
+  },
+  "62858": {
+    "id": "62858",
+    "category": "72",
+    "tr": "Bogota, Colombia",
+    "en": "Bogota, Colombia",
+    "de": "Bogota, Kolumbien",
+    "sort": null,
+    "last_update": "2017-09-05 07:00:18",
+    "total": "14"
+  },
+  "62861": {
+    "id": "62861",
+    "category": "72",
+    "tr": "Zhangjiagang, China",
+    "en": "Zhangjiagang, China",
+    "de": "Zhangjiagang, China",
+    "sort": null,
+    "last_update": "2017-09-04 07:30:13",
+    "total": "12"
+  },
+  "62862": {
+    "id": "62862",
+    "category": "72",
+    "tr": "Zhangjiagang, China, Doubles",
+    "en": "Zhangjiagang, China, Doubles",
+    "de": "Zhangjiagang Doppel, China",
+    "sort": null,
+    "last_update": "2017-09-04 16:00:17",
+    "total": "8"
+  },
+  "62946": {
+    "id": "62946",
+    "category": "785",
+    "tr": "Canada F6, Singles",
+    "en": "Canada F6, Singles",
+    "de": "Kanada F6",
+    "sort": null,
+    "last_update": "2017-09-04 22:00:21",
+    "total": "8"
+  },
+  "62949": {
+    "id": "62949",
+    "category": "785",
+    "tr": "India F7, Singles",
+    "en": "India F7, Singles",
+    "de": "Indien F7",
+    "sort": null,
+    "last_update": "2017-09-04 21:30:20",
+    "total": "10"
+  },
+  "62950": {
+    "id": "62950",
+    "category": "785",
+    "tr": "India F7, Doubles",
+    "en": "India F7, Doubles",
+    "de": "Indien F7, Doppel",
+    "sort": null,
+    "last_update": "2017-09-04 21:32:09",
+    "total": "4"
+  },
+  "62952": {
+    "id": "62952",
+    "category": "785",
+    "tr": "Tunisia F25, Singles",
+    "en": "Tunisia F25, Singles",
+    "de": "Tunesien F25",
+    "sort": null,
+    "last_update": "2017-09-05 00:30:15",
+    "total": "8"
+  },
+  "62953": {
+    "id": "62953",
+    "category": "785",
+    "tr": "Tunisia F25, Doubles",
+    "en": "Tunisia F25, Doubles",
+    "de": "Tunesien F25, Doppel",
+    "sort": null,
+    "last_update": "2017-09-05 00:30:15",
+    "total": "4"
+  },
+  "62955": {
+    "id": "62955",
+    "category": "213",
+    "tr": "Hammamet, Singles W-WITF-TUN-25A",
+    "en": "Hammamet, Singles W-WITF-TUN-25A",
+    "de": "Hammamet, W-WITF-TUN-25A",
+    "sort": null,
+    "last_update": "2017-09-04 23:00:21",
+    "total": "8"
+  },
+  "62956": {
+    "id": "62956",
+    "category": "213",
+    "tr": "Hammamet, Doubles W-WITF-TUN-25A",
+    "en": "Hammamet, Doubles W-WITF-TUN-25A",
+    "de": "Hammamet, Doppel W-WITF-TUN-25A",
+    "sort": null,
+    "last_update": "2017-09-04 23:30:19",
+    "total": "3"
+  },
+  "62961": {
+    "id": "62961",
+    "category": "213",
+    "tr": "Sofia, Singles W-WITF-BUL-01A",
+    "en": "Sofia, Singles W-WITF-BUL-01A",
+    "de": "Sofia, W-WITF-BUL-01A",
+    "sort": null,
+    "last_update": "2017-09-04 17:32:01",
+    "total": "8"
+  },
+  "62962": {
+    "id": "62962",
+    "category": "213",
+    "tr": "Sofia, Doubles W-WITF-BUL-01A",
+    "en": "Sofia, Doubles W-WITF-BUL-01A",
+    "de": "Sofia, Doppel W-WITF-BUL-01A",
+    "sort": null,
+    "last_update": "2017-09-05 01:00:18",
+    "total": "6"
+  },
+  "62964": {
+    "id": "62964",
+    "category": "213",
+    "tr": "Badenweiler, Singles W-WITF-GER-15A",
+    "en": "Badenweiler, Singles W-WITF-GER-15A",
+    "de": "Badenweiler, W-WITF-GER-15A",
+    "sort": null,
+    "last_update": "2017-09-04 21:30:20",
+    "total": "10"
+  },
+  "62965": {
+    "id": "62965",
+    "category": "213",
+    "tr": "Badenweiler, Doubles W-WITF-GER-15A",
+    "en": "Badenweiler, Doubles W-WITF-GER-15A",
+    "de": "Badenweiler, Doppel W-WITF-GER-15A",
+    "sort": null,
+    "last_update": "2017-09-04 21:30:20",
+    "total": "1"
+  },
+  "62967": {
+    "id": "62967",
+    "category": "213",
+    "tr": "Trieste, Singles W-WITF-ITA-25A",
+    "en": "Trieste, Singles W-WITF-ITA-25A",
+    "de": "Triest, W-WITF-ITA-25A",
+    "sort": null,
+    "last_update": "2017-09-05 01:00:18",
+    "total": "8"
+  },
+  "62968": {
+    "id": "62968",
+    "category": "213",
+    "tr": "Trieste, Doubles W-WITF-ITA-25A",
+    "en": "Trieste, Doubles W-WITF-ITA-25A",
+    "de": "Triest, Doppel W-WITF-ITA-25A",
+    "sort": null,
+    "last_update": "2017-09-05 02:00:16",
+    "total": "4"
+  },
+  "62971": {
+    "id": "62971",
+    "category": "213",
+    "tr": "Antalya, Singles W-WITF-TUR-30B",
+    "en": "Antalya, Singles W-WITF-TUR-30B",
+    "de": "Antalya, W-WITF-TUR-30B",
+    "sort": null,
+    "last_update": "2017-09-05 01:00:18",
+    "total": "8"
+  },
+  "62974": {
+    "id": "62974",
+    "category": "213",
+    "tr": "Prague, Singles W-WITF-CZE-06A",
+    "en": "Prague, Singles W-WITF-CZE-06A",
+    "de": "Prag, W-WITF-CZE-06A",
+    "sort": null,
+    "last_update": "2017-09-05 02:00:16",
+    "total": "7"
+  },
+  "62975": {
+    "id": "62975",
+    "category": "213",
+    "tr": "Prague, Doubles W-WITF-CZE-06A",
+    "en": "Prague, Doubles W-WITF-CZE-06A",
+    "de": "Prag, Doppel W-WITF-CZE-06A",
+    "sort": null,
+    "last_update": "2017-09-05 02:00:16",
+    "total": "5"
+  },
+  "62977": {
+    "id": "62977",
+    "category": "785",
+    "tr": "France F18, Singles",
+    "en": "France F18, Singles",
+    "de": "Frankreich F18",
+    "sort": null,
+    "last_update": "2017-09-05 01:00:18",
+    "total": "10"
+  },
+  "62980": {
+    "id": "62980",
+    "category": "785",
+    "tr": "Spain F28, Singles",
+    "en": "Spain F28, Singles",
+    "de": "Spanien F28",
+    "sort": null,
+    "last_update": "2017-09-05 01:30:16",
+    "total": "11"
+  },
+  "62983": {
+    "id": "62983",
+    "category": "785",
+    "tr": "Turkey F33, Singles",
+    "en": "Turkey F33, Singles",
+    "de": "Türkei F33",
+    "sort": null,
+    "last_update": "2017-09-04 23:30:19",
+    "total": "8"
+  },
+  "62986": {
+    "id": "62986",
+    "category": "785",
+    "tr": "Italy F28, Singles",
+    "en": "Italy F28, Singles",
+    "de": "Italien F28",
+    "sort": null,
+    "last_update": "2017-09-04 20:30:20",
+    "total": "8"
+  },
+  "62987": {
+    "id": "62987",
+    "category": "785",
+    "tr": "Italy F28, Doubles",
+    "en": "Italy F28, Doubles",
+    "de": "Italien F28, Doppel",
+    "sort": null,
+    "last_update": "2017-09-05 02:00:16",
+    "total": "3"
+  },
+  "62989": {
+    "id": "62989",
+    "category": "785",
+    "tr": "Belgium F12, Singles",
+    "en": "Belgium F12, Singles",
+    "de": "Belgien F12",
+    "sort": null,
+    "last_update": "2017-09-04 22:32:09",
+    "total": "14"
+  },
+  "62992": {
+    "id": "62992",
+    "category": "785",
+    "tr": "Serbia F5, Singles",
+    "en": "Serbia F5, Singles",
+    "de": "Serbien F5",
+    "sort": null,
+    "last_update": "2017-09-05 00:00:16",
+    "total": "7"
+  },
+  "62993": {
+    "id": "62993",
+    "category": "785",
+    "tr": "Serbia F5, Doubles",
+    "en": "Serbia F5, Doubles",
+    "de": "Serbien F5, Doppel",
+    "sort": null,
+    "last_update": "2017-09-05 02:00:16",
+    "total": "5"
+  },
+  "62995": {
+    "id": "62995",
+    "category": "785",
+    "tr": "Ukraine F5, Singles",
+    "en": "Ukraine F5, Singles",
+    "de": "Ukraine F5",
+    "sort": null,
+    "last_update": "2017-09-04 17:30:18",
+    "total": "12"
+  },
+  "62996": {
+    "id": "62996",
+    "category": "785",
+    "tr": "Ukraine F5, Doubles",
+    "en": "Ukraine F5, Doubles",
+    "de": "Ukraine F5, Doppel",
+    "sort": null,
+    "last_update": "2017-09-04 18:00:19",
+    "total": "4"
+  },
+  "62998": {
+    "id": "62998",
+    "category": "785",
+    "tr": "Argentina F6, Singles",
+    "en": "Argentina F6, Singles",
+    "de": "Argentinien F6",
+    "sort": null,
+    "last_update": "2017-09-04 11:00:19",
+    "total": "8"
+  },
+  "63001": {
+    "id": "63001",
+    "category": "213",
+    "tr": "Balatonboglar, Tekler W-WITF-HUN-08A",
+    "en": "Balatonboglar, Singles W-WITF-HUN-08A",
+    "de": "Balatonboglar, W-WITF-HUN-08A",
+    "sort": null,
+    "last_update": "2017-09-04 13:00:15",
+    "total": "13"
+  },
+  "63004": {
+    "id": "63004",
+    "category": "785",
+    "tr": "Egypt F24, Singles",
+    "en": "Egypt F24, Singles",
+    "de": "Ägypten F24",
+    "sort": null,
+    "last_update": "2017-09-05 01:00:18",
+    "total": "3"
+  },
+  "63005": {
+    "id": "63005",
+    "category": "785",
+    "tr": "Egypt F24, Doubles",
+    "en": "Egypt F24, Doubles",
+    "de": "Ägypten F24, Doppel",
+    "sort": null,
+    "last_update": "2017-09-05 02:30:16",
+    "total": "2"
+  },
+  "63008": {
+    "id": "63008",
+    "category": "213",
+    "tr": "Cairo, Doubles W-WITF-EGY-24A",
+    "en": "Cairo, Doubles W-WITF-EGY-24A",
+    "de": "Kairo, Doppel W-WITF-EGY-24A",
+    "sort": null,
+    "last_update": "2017-09-05 02:00:16",
+    "total": "1"
+  },
+  "63010": {
+    "id": "63010",
+    "category": "785",
+    "tr": "Hungary F8, Singles",
+    "en": "Hungary F8, Singles",
+    "de": "Ungarn F8",
+    "sort": null,
+    "last_update": "2017-09-04 22:30:19",
+    "total": "14"
+  },
+  "63011": {
+    "id": "63011",
+    "category": "785",
+    "tr": "Hungary F8, Doubles",
+    "en": "Hungary F8, Doubles",
+    "de": "Ungarn F8, Doppel",
+    "sort": null,
+    "last_update": "2017-09-04 22:32:09",
+    "total": "1"
+  },
+  "63209": {
+    "id": "63209",
+    "category": "88",
+    "tr": "Challenger Series 2017, Week 36, Session 1",
+    "en": "Challenger Series 2017, Week 36, Session 1",
+    "de": "Challenger Series 2017, Week 36, Session 1",
+    "sort": null,
+    "last_update": "2017-09-04 23:30:19",
+    "total": "8"
+  },
+  "63219": {
+    "id": "63219",
+    "category": "259",
+    "tr": "Vietnam Open (GP) 2017",
+    "en": "Vietnam Open (GP) 2017",
+    "de": "Vietnam Open (GP) 2017",
+    "sort": null,
+    "last_update": "2017-09-04 22:00:21",
+    "total": "15"
+  },
+  "63326": {
+    "id": "63326",
+    "category": "975",
+    "tr": "Caribbean Premier League, Playoffs",
+    "en": "Caribbean Premier League, Playoffs",
+    "de": "Caribbean Premier League, Playoffs",
+    "sort": null,
+    "last_update": "2017-09-05 07:00:18",
+    "total": "1"
+  }
+}
