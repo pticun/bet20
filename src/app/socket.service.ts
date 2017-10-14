@@ -23,12 +23,12 @@ const ROOT_API = 'https://betdemo.dev/';
 @Injectable()
 export class SocketService {
   liste : any
-  OUT_API = '/rest/v1/';
-  proxyurl = '';
+  OUT_API = 'https://www.moxbet1.com/rest/v1/';
+  proxyurl = 'https://cors-anywhere.herokuapp.com/';
   constructor(private http: Http, private socket: Socket) {
-    if (window.location.hostname == 'localhost') {
-      this.OUT_API = 'https://www.moxbet1.com/rest/v1/';
-      this.proxyurl = 'https://cors-anywhere.herokuapp.com/';
+    if (window.location.hostname == 'www.moxbet1.com') {
+      this.OUT_API = '/rest/v1/';
+      this.proxyurl = '';
     }
   }
   getFirstData(){
