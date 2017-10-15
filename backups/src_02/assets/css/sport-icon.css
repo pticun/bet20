@@ -1,0 +1,46 @@
+.sport{ background: url("../images/sports_sprite.png?2") no-repeat top left; width: 16px; height: 16px;  display: inline-block; }
+.sport_1 { background-position: 0px 0px !important;}
+.sport_2 { background-position: 0px -16px !important;}
+.sport_3 { background-position: 0px -32px !important;}
+.sport_4 { background-position: 0px -48px !important;}
+.sport_5 { background-position: 0px -64px !important;}
+.sport_6 { background-position: 0px -80px !important;}
+.sport_24,
+.sport_7 { background-position: 0px -96px !important;}
+.sport_9 { background-position: 0px -112px !important;}
+.sport_10 { background-position: 0px -128px !important;}
+.sport_11 { background-position: 0px -144px !important;}
+.sport_12 { background-position: 0px -160px !important;}
+.sport_13 { background-position: 0px -176px !important;}
+.sport_16 { background-position: 0px -192px !important;}
+.sport_19 { background-position: 0px -208px !important;}
+.sport_20 { background-position: 0px -224px !important;}
+.sport_21 { background-position: 0px -240px !important;}
+.sport_22 { background-position: 0px -256px !important;}
+.sport_23 { background-position: 0px -272px !important;}
+.sport_26 { background-position: 0px -288px !important;}
+.sport_29 { background-position: 0px -304px !important;}
+.sport_31 { background-position: 0px -320px !important;}
+.sport_32 { background-position: 0px -336px !important;}
+.sport_34 { background-position: 0px -352px !important;}
+.sport_37 { background-position: 0px -368px !important;}
+.sport_60 { background-position: 0px -384px !important;}
+.sport_30,
+.sport_61 { background-position: 0px -400px !important;}
+.sport_117 { background-position: 0px -416px !important;}
+.sport_109 { background-position: 0px -432px !important;}
+.sport_110 { background-position: 0px -464px !important;}
+.sport_111 { background-position: 0px -448px !important;}
+
+
+.favleague{ background: url("../images/favleague-sprite.png") no-repeat top left; width: 16px; height: 16px; display: inline-block; vertical-align: bottom; margin-right: 10px; }
+.favleague-46-62 { background-position: 0px -116px !important;}
+.favleague-46-101 { background-position: 0px -133px !important;}
+.favleague-1-1 { background-position: 0px -54px !important;}
+.favleague-32-36 { background-position: 0px -95px !important;}
+.favleague-30-42 { background-position: 0px 0px !important;}
+.favleague-31-33 { background-position: 0px -76px !important;}
+.favleague-7-4 { background-position: 0px -29px !important;}
+.favleague-44-52 { background-position: 0px -220px !important;}
+.favleague-35-39 { background-position: 0px -12px !important;}
+.favleague-15-177 { background-position: 0px -203px !important;}

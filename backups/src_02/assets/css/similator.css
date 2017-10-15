@@ -1,0 +1,244 @@
+.sr-widgets-matchcommentary .sr-teamheader{
+  height: auto !important;
+}
+.sr-widgets-momentum2 .sr-unavailable{
+  opacity: 1;
+  color: #000;
+}
+.sr-widget.sr-widgets-momentum2 .sr-list-triangle {
+    border-color: #777;
+}
+.sr-lmts-scoreboard-wraper .sr-result-wraper{
+  color: #092d3d;
+}
+.sr-widget.sr-widgets-matchheader .sr-scoreboard-status{
+  background: none;
+}
+.sr-widget .sr-label {
+  color: rgb(194, 218, 243) !important;
+}
+.sr-stats-wrapper .sr-label{
+  color: #0e0f12 !important;
+}
+.right-column .sr-widget{
+  border-radius: 5px !important;
+  overflow: hidden;
+  border:none!important;
+  margin-bottom: 10px;
+  background: #092d3d;
+}
+.sr-widget .sr-comment-item .sr-time{
+  display: none;
+}
+.right-column .sr-widget .sr-no-data{
+  background: #092d3d;
+  position: relative;
+}
+.sr-widget .sr-no-data .sr-widget-icon {
+  color: rgb(219, 165, 0);
+}
+.right-column .sr-widget .sr-no-data:after{
+  content: "";
+  background: url(../images/logo.png?2);
+  width: 154px;
+  height: 46px;
+  right: 32%;
+  bottom: 5%;
+  z-index: 5;
+  position: absolute;
+}
+.sr-widget .sr-no-data .sr-no-data-message{
+  color: #fff;
+}
+.sr-widget .sr-color-home {
+  background-color: #dba500;
+}
+.sr-widget .sr-color-away {
+  background-color: #092d3d;
+}
+.sr-widget .sr-pills .sr-pill{
+  color: rgb(234, 234, 234) !important;
+  background-color: rgb(45, 58, 78) !important;
+  border-left-color: rgba(0, 0, 0, 0.11) !important;
+}
+.sr-widget .sr-pills .sr-pill.sr-active{
+  color: #fff!important;
+  background-color: #dba500!important;
+}
+.sr-widgets-lmts .sr-lmts-collapse-container-inner{
+  background: #e1efff;
+}
+.sr-widget {
+  border: 1px solid #88bbe2;
+  font-family: Open Sans !important;
+}
+.sr-widget .sr-matclineups-pitch .sr-player-home, .sr-widget .sr-lmts-tactical-home .sr-shirt, .sr-widget .sr-widgets-lmts-playerinfo .sr-home, .sr-widget .sr-lmts-lineups-player .sr-home{
+  background-color: #2283e6 !important;
+  color: #fff !important;
+}
+.sr-widget .sr-matclineups-pitch .sr-player-away, .sr-widget .sr-lmts-tactical-away .sr-shirt, .sr-widget .sr-widgets-lmts-playerinfo .sr-away, .sr-widget .sr-lmts-lineups-player .sr-away{
+  background-color: #e9ff1b !important;
+  color: #000 !important;
+}
+.sr-widgets-matchlineups .sr-player img, .sr-widgets-matchlineups .sr-player span{
+  line-height: 20px;
+  height: 20px;
+  width: 20px;
+}
+.sr-widgets-matchlineups.sr-small .sr-playerinfo-wrap .sr-close-btn{
+  height: 28px;
+  width: 28px;
+  line-height: 27px;
+  border-radius: 50%;
+  background-color: #227fde;
+}
+.sr-widgets-matchlineups .sr-lineups-title {
+  color: #ffffff;
+  background: #092d3d;
+  border-top: none !important;
+}
+.sr-list.sr-border.sr-lineups-title {
+  background: #ffffff;
+  color: #000000;
+}
+.sr-widgets-matchlineups .sr-matchlineups-row-wrapper{
+  color: #ffffff;
+  border-bottom: 1px solid #a9d9ff;
+}
+.sr-widgets-matchcommentary .sr-cl{
+  color: #a6adb7;
+  text-shadow: 1px 1px black;
+  padding: 3px 3px;
+}
+.sr-widget .sr-team-header .sr-crest img{
+  margin-top: 6px;
+}
+.sr-widget .sr-subheader-1{
+  background-color: #ffffff;
+}
+.sr-widget .sr-playerinfo-wrap .sr-content,
+.sr-widget .sr-team-header-home,
+.sr-widget .sr-matclineups-teams .sr-tabs-header.sr-home:after,
+.sr-widget .sr-matclineups-teams .sr-tab.sr-active:first-child,
+.sr-widget .sr-matclineups-teams .sr-tab .sr-lineups-header-home,
+.sr-widget .sr-matclineups-teams .sr-tab.sr-active .sr-lineups-header-home{
+  background: #dba500;
+}
+.sr-widget .sr-tabs .sr-tab.sr-active,
+.sr-widget .sr-team-header-away,
+.sr-widget .sr-matclineups-teams .sr-tabs-header.sr-away:after,
+.sr-widget .sr-matclineups-teams .sr-tab .sr-lineups-header-away,
+.sr-widget .sr-matclineups-teams .sr-tab.sr-active .sr-lineups-header-away{
+  background: #092d3d;
+}
+.sr-widget .sr-matclineups-teams .sr-matchlineups-away .sr-matchlineups-shirtnumber {
+    background-color: #FF9800;
+    color: #ffffff;
+}
+.sr-widget.sr-widgets-playerinfo.sr-medium .sr-tabs .sr-tab, .sr-widget.sr-widgets-playerinfo.sr-large .sr-tabs .sr-tab{
+    background-color: #191e24;
+}
+.sr-widget .sr-highlight {
+    background: linear-gradient(to right,rgb(43, 52, 66),transparent);
+}
+.sr-widget .sr-playerinfo-wrap .sr-content,
+.sr-widget .sr-playerinfo-wrap .sr-playerinfo-content>.sr-player-info, .sr-widget .sr-playerinfo-wrap .sr-tab-pane{
+  background: #092d3d !important;
+}
+.sr-widgets-matchlineups .sr-lineups-header .sr-lineups-team{
+  color: #fff;
+}
+.sr-widget .sr-matclineups-teams .sr-matchlineups-home .sr-matchlineups-shirtnumber{
+  background-color: #10af45;
+  color: #fff;
+}
+.sr-widgets-matchlineups .sr-lineups-pitch{
+  background: url(../images/similator-bg.jpg) !important;
+  width: 100% !important;
+  background-size: 100% 100% !important;
+}
+.sr-widget .sr-header-1{
+  background-color: #ecf6fe;
+}
+.sr-widget .sr-header-2{
+  background-color: #2b384c;
+}
+.sr-lmts-scoreboard-wraper .sr-result-fullscore .sr-team-crests .sr-full, .sr-lmts-scoreboard-wraper .sr-result-fullscore .sr-team-crests .sr-abbr{
+  color: #092d3d;
+  font-size: 18px;
+  font-weight: 400;
+}
+.sr-widget.sr-widgets-matchheader .sr-scoreboard-head{
+  background-color: #dba500;
+}
+.sr-lmts-scoreboard-wraper .sr-result-fullscore .sr-middle .sr-result{
+  color: #2478cd;
+}
+.sr-lmts-scoreboard-wraper .sr-result-fullscore .sr-middle .sr-result{
+  top: 10px;
+}
+.sr-widgets-lmts .sr-lmts-collapse-bar,
+.sr-widgets-lmts .sr-lmts-collapsed .sr-lmts-collapse-bar{
+   color: #092d3d;
+   background: #ecf6fe;
+   height: 17px;
+}
+.sr-widgets-momentum2 .sr-period-end-label,
+.sr-widgets-momentum2 .sr-team-title{
+  color: #227edb;
+}
+.sr-lmts-scoreboard-wraper .sr-status-info-wraper span, .sr-lmts-scoreboard-wraper .sr-status-info-wraper div{
+  font-size: 16px;
+  font-weight: 300 !important;
+  color: #000000;
+  text-transform: uppercase !important;
+}
+.sr-widgets-matchinfo .sr-matchinfo-header{
+  background: #17a947 !important;
+}
+.sr-widgets-lmts .sr-lmts-momentum-holder{
+  background: #ffffff;
+}
+.sr-widgets-momentum2 .sr-grid{
+  stroke: #495a73;
+}
+.sr-widgets-momentum2 .sr-team-top-bg, .sr-widgets-momentum2 .sr-team-bottom-bg{
+  border: 1px solid #495a73;
+}
+.sr-widgets-matchcommentary .sr-filter-item{
+  position: relative;
+  top: -13px;
+  left: 26px;
+}
+.sr-widget .sr-header-3 {
+    background-color: rgb(190, 24, 60);
+    color: #fff;
+}
+
+/* SPORTSBOOK PAGE */
+.match-statistic .sr-widget{
+  border-radius: 0px !important;
+  background: #ffffff;
+  margin-bottom: 4px;
+}
+.match-statistic .sr-widget .sr-header-1{
+  background-color: #ffffff;
+}
+.match-statistic .sr-widget .sr-no-data{
+    background: #ffffff !important;
+}
+.match-statistic .sr-widget .sr-lmts .sr-widgets-matchinfo{
+  box-shadow: none !important;
+}
+.match-statistic .sr-widget .sr-lmts .sr-widgets-matchinfo{
+  background-color: rgb(37, 53, 66);
+}
+.match-statistic .sr-widgets-lmts-matchpitch .sr-splash {
+    width: 100% !important;
+    height: 96% !important;
+}
+.match-statistic .sr-widget .sr-no-data:after{
+  -webkit-filter: brightness(0);
+  filter: brightness(0);
+}
+/* SPORTSBOOK PAGE */
