@@ -1,0 +1,184 @@
+  <!-- Sports -->
+  <div class="panel panel-flat">
+    <div class="panel-heading">
+      <h6 class="panel-title"><b>{{alldata?.taxonomies?.sport[sportid][lang]}}</b> ({{sportid}})</h6>
+    </div>
+    <div class="table-responsive">
+      <div>
+        <table class="table table-sm text-nowrap table-bordered">
+          <thead>
+            <tr>
+              <th class="text-center">Match Time</th>
+              <th class="text-center">Teams</th>
+              <th class="text-center">Score</th>
+              <th class="text-center">{{oddLanguages[firstOdds[sportid]?.one]}}</th>
+              <th class="text-center">{{oddLanguages[firstOdds[sportid]?.two]}}</th>
+              <th class="text-center">{{oddLanguages[firstOdds[sportid]?.three]}}</th>
+              <th class="text-center">{{oddLanguages[firstOdds[sportid]?.four]}}</th>
+              <th class="text-center"> <i class="icon-plus3"></i> </th>
+            </tr>
+          </thead>
+          <tbody>
+            <ng-container  *ngFor="let categoryid of getKeys(alldata?.taxonomies?.category)">
+              <ng-container  *ngIf="alldata?.taxonomies?.category[categoryid]?.sport === sportid">
+                <ng-container  *ngFor="let tournamentid of getKeys(alldata?.taxonomies?.tournament)">
+                  <ng-container  *ngIf="alldata?.taxonomies?.tournament[tournamentid].category === categoryid">
+                    <tr class="info">
+                      <td colspan="8" class="text-semibold">
+                       {{alldata?.taxonomies?.category[categoryid][lang]}} - {{alldata?.taxonomies?.tournament[tournamentid][lang]}}
+                     </td>
+                   </tr>
+                   <ng-container *ngFor="let item of alldata?.taxonomies?.tourkeys[tournamentid]">
+                    <tr>
+                      <td class="text-center">
+                        {{alldata.details.do[item]?.matchtime_extended || alldata.details.do[item].matchtime  + ':00'}}
+                      </td>
+                      <td class="">
+                        {{this.alldata.details.do[item]?.teams.home[lang]}} - {{this.alldata.details.do[item]?.teams.away[lang]}}
+                      </td>
+                      <td class="text-center">
+                        {{alldata.details.do[item].score}}
+                      </td>
+                      <td class="text-center">
+
+                        <span
+                        *ngFor="let odd of alldata?.markets?.mo[item][
+                        filterhead[firstOdds[sportid]?.one + item]]?.odds  index as i">
+                        <button *ngIf="sbvs[firstOdds[sportid]?.one] && i === 1"
+                        type="button"
+                        class="btn btn-raised legitRipple btn-xs ml-5">
+                        {{alldata?.markets?.mo[item][
+                        filterhead[firstOdds[sportid]?.one + item]].sbv}}
+                      </button>
+                      <button
+                      type="button"
+                      class="btn btn-info btn-raised legitRipple btn-xs ml-5 {{odd?.action}}">
+                      {{odd.value}}
+                    </button>
+
+                  </span>
+                </td>
+
+
+                <td class="text-center">
+
+                  <span
+                  *ngFor="let odd of alldata?.markets?.mo[item][
+                  filterhead[firstOdds[sportid]?.two + item]]?.odds  index as i">
+                  <button *ngIf="sbvs[firstOdds[sportid]?.two] && i === 1"
+                  type="button"
+                  class="btn btn-raised legitRipple btn-xs ml-5">
+                  {{alldata?.markets?.mo[item][
+                  filterhead[firstOdds[sportid]?.two + item]].sbv}}
+                </button>
+                <button
+                type="button"
+                class="btn btn-info btn-raised legitRipple btn-xs ml-5 {{odd?.action}}">
+                {{odd.value}}
+              </button>
+
+            </span>
+          </td>
+
+          <td class="text-center">
+
+            <span
+            *ngFor="let odd of alldata?.markets?.mo[item][
+            filterhead[firstOdds[sportid]?.three + item]]?.odds index as i">
+            <button *ngIf="sbvs[firstOdds[sportid]?.three] && i === 1"
+            type="button"
+            class="btn btn-raised legitRipple btn-xs ml-5">
+            {{alldata?.markets?.mo[item][
+            filterhead[firstOdds[sportid]?.three + item]].sbv}}
+          </button>
+          <button
+          type="button"
+          class="btn btn-info btn-raised legitRipple btn-xs ml-5 {{odd?.action}}">
+          {{odd.value}}
+        </button>
+
+      </span>
+    </td>
+
+    <td class="text-center">
+
+      <span
+      *ngFor="let odd of alldata?.markets?.mo[item][
+      filterhead[firstOdds[sportid]?.four + item]]?.odds index as i">
+      <button *ngIf="sbvs[firstOdds[sportid]?.four] && i === 1"
+      type="button"
+      class="btn btn-raised legitRipple btn-xs ml-5">
+      {{alldata?.markets?.mo[item][
+      filterhead[firstOdds[sportid]?.four + item]].sbv}}
+    </button>
+
+    <button
+    type="button"
+    class="btn btn-info btn-raised legitRipple btn-xs ml-5 {{odd?.action}}">
+    {{odd.value}}
+  </button>
+
+</span>
+</td>
+
+
+<td class="text-center">
+  <button type="button" class="btn btn-default btn-raised btn-plus legitRipple btn-icon btn-xs"
+  (click)="panelAc(item)">
+  <i class="icon-plus3"></i>
+</button>
+</td>
+
+</tr>
+
+<ng-container *ngIf="currentOpen === item">
+  <tr>
+    <td colspan="8" class="success">
+      {{this.alldata.details.do[item]?.teams.home[lang]}} - {{this.alldata.details.do[item]?.teams.away[lang]}}
+    </td>
+  </tr>
+  <tr>
+    <td colspan="8">
+      <div class="row">
+        <ng-container *ngFor="let mi of getKeys(alldata?.markets?.mo[item])">
+         <div  class="col-md-3" *ngIf="listeDetay[alldata?.markets?.mo[item][mi].typeid + alldata?.markets?.mo[item][mi].subtype  + item] == mi">
+          <h6>
+            {{oddLanguages[alldata?.markets?.mo[item][mi].typeid + alldata?.markets?.mo[item][mi].subtype]}} - (sbv : {{alldata?.markets?.mo[item][mi]?.sbv}})
+          </h6>
+          <div>
+            <span
+            *ngFor="let odd of alldata?.markets?.mo[item][mi]?.odds">
+            <button
+            type="button"
+            class="btn btn-info btn-block mb-5 btn-raised legitRipple btn-xs ml-5 {{odd?.action}}">
+            ({{odd?.type}}) - {{odd?.value || 'x'}}
+          </button>
+        </span>
+      </div>
+    </div>
+  </ng-container>
+</div>
+</td>
+</tr>
+<tr>
+  <td colspan="8" class="danger">
+    {{this.alldata.details.do[item]?.teams.home[lang]}} - {{this.alldata.details.do[item]?.teams.away[lang]}} // Detaylı Oranlar
+  </td>
+</tr>
+</ng-container>
+
+
+</ng-container>
+</ng-container>
+</ng-container>
+</ng-container>
+</ng-container>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+
+{{newLang | json}}
+

@@ -315,3 +315,8 @@ tr th {
 tr td.odd-area {
   min-width: 170px;
 }
+
+
+.mr-10{
+  margin-right: 10px;
+}

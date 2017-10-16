@@ -1,0 +1,970 @@
+@media (max-width: 992px){
+	body{
+		margin-bottom: 5px !important
+	}
+	.navbar-toggle{
+		display: block;
+	}
+	/* Header */
+	header div.top-header{
+	    position: fixed;
+	    width: 100%;
+    	z-index: 500;
+  		top: 0px;
+	    height: 60px;
+	}
+	.top-toggle{
+	    background: #061c25;
+	    margin: 15px 7px 0;
+	    border: 1px solid #0e3849;
+	    font-size: 14px;
+	    color: #ffffff;
+	    padding: 9px 0;
+	    width: 12%;
+	}
+	.top-menu{
+		position: fixed;
+		padding: 0px;
+		z-index: 9999;
+		display: none;
+  	  	height: 100% !important;
+        width: 70%;
+    	box-shadow: 0px 6px 11px #000000;
+  		top: 60px;
+	    background: #ffffff;
+  	}
+	.top-menu .col-md-12{
+		padding: 0px !important
+	}
+	.top-menu.in{
+		display: block;
+        -webkit-animation-name: slideInLeft;
+  		animation-name: slideInLeft;
+	}
+	.top-menu.collapsing{
+		display: block;
+        -webkit-animation-name: slideInLeft;
+  		animation-name: slideInLeft;
+	}
+	.top-menu.collapse{
+		display: block;
+        -webkit-animation-name: slideOutLeft;
+  		animation-name: slideOutLeft;
+	}
+	header div.top-header .logo-row .logo-inc{
+	    margin: 0px auto!important;
+	    float: none!important;
+	    background: 0 0!important;
+	    height: 39px!important;
+	    width: 154px!important;
+	}
+	header div.top-header .logo-row .logo-inc .logo .shine{
+	    left: 1px !important;
+	    width: 49% !important;
+	}
+	header div.top-header .logo-row .logo-inc .logo{
+		margin: 7px 0 !important;
+	}
+	header div.top-header .logo-row .logo-inc:after{
+		display: none !important;
+	}
+	.dropdown.language, header div.top-header .login-row, header .user-row, header .top-header .user{
+		display: none;
+	}
+	header nav.top-menu ul li{
+		width: 100%;
+	}
+	header nav.top-menu ul li a{
+		border-bottom: 1px dotted #bdbdbd;
+		color: #253542;
+		padding: 12px 21px;
+		text-align: left;
+		border-left: none;
+		border-right: none;
+		font-weight: 600;
+		font-size: 16px;
+	}
+	header nav.top-menu ul li.active a,
+	header nav.top-menu ul li a:hover{
+		color: #fff;
+   		background: #1c2229;
+	}
+	header nav.top-menu ul li.active a i ,
+	header nav.top-menu ul li a:hover i{
+		color: #aaccf7;
+	}
+	header nav.top-menu ul li a i{
+  	  color: #94a7bf;
+	}
+	header nav.top-menu .navbar-nav{
+   		 margin: 0px 0px;
+	}
+	nav.user-nav{
+		position: fixed;
+		z-index: 9999;
+		width: 70%;
+		top: 60px;
+		right: 0px;
+		padding: 0px;
+	    overflow-y: scroll;
+	    height: 91% !important;
+		display: none;
+	    background: #ffffff;
+	    border-left: 1px solid #b3b3b3;
+	}
+	nav.user-nav.in{
+		display: block;
+        -webkit-animation-name: slideInRight;
+  		animation-name: slideInRight;
+	}
+	nav.user-nav.collapsing{
+		display: block;
+        -webkit-animation-name: slideInRight;
+  		animation-name: slideInRight;
+	}
+	nav.user-nav.collapse{
+		display: block;
+        -webkit-animation-name: slideOutRight;
+  		animation-name: slideOutRight;
+	}
+	nav.user-nav .btn{
+ 	   padding: 6px 0px;
+ 	   margin:10px 0;
+	}
+	nav.user-nav .nav{
+		margin: 7.5px 0px;
+	}
+	nav.user-nav .nav .col-xs-6{
+		padding:0 5px;
+	}
+	nav.user-nav .nav-welcome{
+		color: #131313;
+	    margin: 10px;
+	    display: inline-block;
+	}
+	nav.user-nav .nav-welcome span{
+	    color: #dba500;
+	}
+	nav.user-nav .nav-welcome-text{
+	    color: #dba500;
+	    margin: 0px 10px;
+	    display: inline-block;
+    	font-size: 15px;
+	}
+	nav.user-nav .nav-balance{
+		width: 92%;
+	    margin: 0 4% 3%;
+	    border-radius: 2px;
+	    color: #383737;
+	    padding: 6px 6px 0;
+	    font-weight: 600;
+	    font-size: 12px;
+	    background: #fbfbfb;
+	    border: 1px solid #cecece;
+	}
+	nav.user-nav .nav-balance span{
+		font-size: 18px;
+	    font-weight: 700;
+	    color: #FFC107;
+	    display: block;
+	}
+	nav.user-nav .menu-tit{
+		display: inline-block;
+		margin: 10px;
+		color: #dba500;
+		font-size: 12px;
+	}
+	nav.user-nav li.user-menu a{
+		background: rgba(255, 255, 255, 0.34);
+		border-top: 1px dotted #aaaaaa;
+		color: #191919;
+		padding: 4px 15px;
+		font-weight: 500;
+		float: left;
+		width: 100%;
+	}
+	nav.user-nav li.user-menu a:hover{
+	    background: rgba(123, 123, 123, 0.34);
+	}
+	nav.user-nav li.user-menu a i {
+		color: #dba500;
+		margin-right: 5px;
+		font-size: 19px;
+	}
+	.mobile-location-menu{
+	    height: 40px;
+	    position: relative;
+	    z-index: 99;
+	    position: fixed;
+	    background: #061c25;
+	    top: 60px;
+	    width: 100%;
+	}
+	.mobile-location-menu .navbar-toggle{
+		margin-top: 3px;
+		background: #092d3d;
+		border-color: #0f465f;
+	    color: #ffffff;
+	}
+	.sport-cat .nav>li>a{
+		font-size: 14px;
+	}
+	.left-column .sport-cat{
+	 	display: none;
+	 	opacity: 0px;
+    	transition: all 0.3s ease-out;
+	}
+	.category-mobile-btn{
+	    position: fixed;
+	    top: 99px;
+	    z-index: 55;
+	    width: 100%;
+	    border-top: none;
+	    left: 0;
+	    border-radius: 0px !important;
+	    border: 1px solid #dba500 !important;
+	    background: #dba500 !important;
+	    padding: 6px 0;
+	}
+	.active-mobile .sport-cat{
+	    display: block !important;
+	    opacity: 1 !important;
+	}
+	.sport-cat .nav>li .sports-inc li a{
+		font-size: 13px;
+	}
+	.highlights .title-block {
+	    font-weight: 700;
+	}
+	.title-block .menu-min{
+		display: none;
+	}
+	section.sportsbook nav.sport-cat{
+		position: absolute;
+	    z-index: 5;
+	    width: 70%;
+	    top: -20px;
+	    left: -3px;
+	    display: none;
+	}
+	section.sportsbook nav.sport-cat{
+		display: block;
+		-webkit-animation-name: fadeInLeft;
+		animation-name: fadeInLeft;
+		-webkit-animation-duration: 0.5s;
+		animation-duration: 0.5s;
+		-webkit-animation-fill-mode: both;
+		animation-fill-mode: both;
+	}
+	section.sportsbook:before {
+	    content: "";
+	    position: fixed;
+	    width: 100%;
+	    background: rgba(0, 0, 0, 0.63);
+	    z-index: 3;
+	    height: 100%;
+	    top: 0;
+	}
+	/* Header */
+
+
+	/* Section */
+
+	section{
+  		  padding-top: 0px;
+  		  display: block !important;
+  		  margin-bottom: 40px;
+    	  margin-top: 50px;
+	}
+	.mobile-numeric{
+    	background: rgba(0, 0, 0, 0.56);
+		padding: 7px 18px;
+		border-radius: 2px;
+		margin-top: 6px;
+		height: 78px;
+		display: none;
+	}
+	.coupon-row .click-numeric-combine{position: absolute; width: 100%; height: 100%; left: 0px; z-index: 3; }
+	.coupon-row .click-numeric{position: absolute; width: 100%; height: 100%; left: 0px; z-index: 3; }
+
+	.mobile-numeric .mobile-bet-input{
+	    padding: 4px 0px;
+	    width: 8.9%;
+	    float: left;
+	    margin-left: 1%;
+	    margin-bottom: 5px;
+	    border-radius: 2px;
+	    color: #fff;
+	}
+	.mobile-numeric .mobile-bet-input.under {
+	    width: 32%;
+	}
+	.coupon-row{
+		width: 100% !important;
+    	bottom: 25px !important;
+	}
+	.coupon-row.mobile-coupon{
+		height: 100%;
+		overflow-y:scroll;
+  		background: #1b262f;
+  		bottom: 0px !important;
+	}
+    .left-live {
+       -webkit-backface-visibility: hidden;
+       -moz-backface-visibility: hidden;
+       -ms-backface-visibility: hidden;
+       backface-visibility: hidden;
+
+       -webkit-perspective: 1000;
+       -moz-perspective: 1000;
+       -ms-perspective: 1000;
+       perspective: 1000;
+    }
+	.coupon-bottom{
+	    position: fixed;
+	    bottom: 0;
+    	background: rgb(9, 45, 61);
+	    width: 100%;
+	    height: 25px;
+	    left: 0;
+   		z-index: 555;
+    	color: #fff;
+	    padding-top: 4px;
+	}
+	.coupon-bottom .count{
+	    background: #ffffff;
+	    text-align: center;
+	    font-size: 12px;
+	    border-radius: 2px;
+	    color: #000;
+	}
+	.coupon-bottom .balance{
+	    background: #0e5372;
+	    font-size: 12px;
+	    border-radius: 3px;
+	    text-align: center;
+	    color: #fff;
+	}
+	.coupon-row .coupon-action .coupon-action-right .coupon-amount.single:hover:after{
+	    right: 80px !important;
+	    top: -185px !important;
+	}
+	.coupon-table{margin:0 -15px;}
+
+	section .financial-table tr td:nth-child(3){
+		display: none;
+	}
+	section .coupon-table.coupon-list tr td:nth-child(1),
+	section .coupon-table.coupon-list tr td:nth-child(3),
+	section .coupon-table.coupon-list tr td:nth-child(4){
+		display: none;
+	}
+	section .coupon-table.coupon-show tr td:nth-child(1),
+	section .coupon-table.coupon-show tr td:nth-child(5){
+		display: none;
+	}
+	section .ticket-table.ticket-list tr td:nth-child(1),
+	section .ticket-table.ticket-list tr td:nth-child(3){
+		display: none;
+	}
+	section .ticket-table.ticket-show tr td:nth-child(1),
+	section .ticket-table.ticket-show tr td:nth-child(3),
+	section .ticket-table.ticket-show tr td:nth-child(4){
+		display: none;
+	}
+	section .coupon-detail-label{
+	    clear: both;
+	    display: block;
+	    margin-bottom: 15px;
+	}
+	section .coupon-detail-label span{
+	    width: 40%;
+	    float: right;
+	    padding: 5px;
+	    font-weight: 700;
+	}
+	section .coupon-table .match-name{
+		white-space: normal !important;
+	}
+	.back-coupon,
+	.back-btn,
+	.left-cat-menu{
+		display: none;
+	}
+	section .container .right-column{
+		padding:5px !important;
+	}
+	.carousel-inner>.item>img{
+		width: 100% !important;
+	}
+	.coupon-title .coupon-piece{
+		background: #FFEB3B !important;
+		padding: 1px 7px !important;
+		border-radius: 50% !important;
+		color: #000 !important;
+		display: inline-block;
+		font-weight: bold !important;
+	}
+	.coupon-title .coupon-piece:after{
+		border-bottom: solid 12px #FFEB3B !important;
+		border-left: solid 12px transparent !important;
+		border-right: solid 7px transparent !important;
+		position: absolute !important;
+		right: -5px !important;
+		transform: rotateY( 51deg ) !important;
+		top: 7px !important;
+	}
+	/*ODDBTN*/
+	section .match-odd-table .match-odds .odd-row .odds,
+	section .match-odd-table .match-odds .odd-row .odds .oddbtn-outline{
+		padding: 0px !important;
+	}
+	.oddbtn{
+		border: none !important;
+		border-right: 1px solid #222a35 !important;
+		border-radius: 0px !important;
+	}
+	.oddbtn .odd,
+	.oddbtn .outcome{
+	    padding: 4px;
+	}
+	.total-live-row{
+		display: none;
+	}
+	.left-live .outcome{
+    	padding-top: 3px;
+	}
+	.oddbtn-row .oddbtn{
+		border: none !important;
+	    width: 100%;
+	    margin-top: -41px!important;
+	    margin-right: 0px;
+	    padding: 12px 13px 12px;
+	}
+	[data-active="0"] .oddbtn .odd, [data-active="0"] .oddbtn .outcome {
+	    display: none;
+	}
+	[data-active="0"] .oddbtn:after,
+	[data-betstatus=stopped] .oddbtn:after{
+		top: 6px;
+		left: auto !important;
+		text-align: right;
+		right: 10px;
+	}
+	[data-betstatus=stopped] .oddbtn-row,
+	[data-active="0"] .oddbtn-row {
+	    padding-bottom: 4px !important;
+	}
+	[data-active="0"] .oddbtn,
+	[data-betstatus=stopped] .oddbtn{
+    	padding: 12px 0!important;
+	}
+	[data-betstatus=stopped] .oddbtn .odd {
+	    color: rgba(204, 204, 204, 0);
+	}
+	.match-odd-table .match-odds .odd-row .odds .oddbtn-outline .oddbtn-row{
+		border-radius: 0px !important;
+		margin-bottom: 0px !important;
+	    border: none !important;
+	    border-right: 1px solid #bfbfbf !important;
+	    padding: 0px;
+	}
+	.match-odd-table .match-odds .odd-row .odds .oddbtn-outline .oddbtn-row .outcome, .oddbtn .outcome{
+	    width: 60%;
+	    text-overflow: ellipsis;
+	    white-space: nowrap;
+	    overflow: hidden;
+   		text-align: left;
+	}
+	.match-odd-table .match-odds .odd-row .odds .oddbtn-outline .oddbtn-row .outcome{
+    	padding: 11px;
+	}
+	.oddbtn.selected .odd{
+		color: #fff;
+	}
+	section table.match-table tbody td .oddbtn.selected{
+   		border-color:#be183c!important;
+	}
+	section .match-odd-table .match-odds .odd-row .odd-title i{
+		float: none !important;
+	}
+	.match-odd-table .match-odds .odd-row .odds .oddbtn-outline .oddbtn-row .oddbtn{
+		border-radius: 0px !important;
+		border:none !important;
+	    font-weight: 900;
+	    color: #dba500;
+	}
+	table.match-table tbody td.statistic-btn,
+	.match-table .match-odds{
+		display: none;
+	}
+	.match-table thead{
+		display: none;
+	}
+	section table.match-table tbody td .oddbtn{
+		padding:0px;
+	    width: 32.59% !important;
+		border-radius: 2px !important;
+		border: 1px solid #b3b3b3 !important;
+	}
+	section table.match-table tbody td.match-name span{
+		width: 95% !important;
+	}
+	.match-statistic{
+		display: none;
+	}
+	/* VIRTUAL */
+	.virtual-iframe iframe{
+		height: 650px !important;
+	}
+	.virtual-menu{
+		padding-left: 0px;
+	}
+	.virtual-menu li{
+	    width: 100%;
+	    margin-bottom: 5px;
+	}
+	.virtual-menu li a{
+		border-radius: 4px;
+	}
+	.virtual-odd-menu li {
+		margin-left: 0px !important;
+    	width: 49%;
+	}
+	.virtual-odd-menu li a{
+	    margin-left: 0px;
+	    border-radius: 0px !important;
+	    text-align: center;
+	}
+
+	section .container .virtual-banner .virtual-icon{
+		background-size: 40px;
+	    width: 40px;
+	    height: 40px;
+	}
+	#virtual-odds.virtual-table tbody .match td.virtual-btn-column a{
+	    width: 100% !important;;
+	    margin-bottom: 3px !important;;
+	    border-radius: 3px !important;
+	    border: 1px solid #ccc !important;
+	}
+	#virtual-odds.virtual-table tbody .match td.virtual-btn-column a .outcome{
+		width: auto !important;
+	}
+	#virtual-odds.virtual-table tbody .match td.virtual-btn-column .sbv{
+	    margin: 10px 2% 0px 2%;
+	    width: 90%;
+	    text-align: center;
+	    height: 23px;
+	}
+	.left-live .live-match .match-odds td,
+	.left-live .live-match .match-odds{
+		display: block !important;
+	}
+	.left-live .live-match .match-odds .oddbtn-row{
+		display: block;
+	    color: #000000;
+	    margin: 3px 1px;
+	    border-radius: 2px!important;
+	    font-size: 12px;
+	    font-weight: 400;
+	    text-decoration: none;
+	    padding: 0px 4px;
+	    text-align: center;
+	    border: 1px solid #bfbfbf!important;
+	    width: 32.6%!important;
+	}
+	.left-live table.live-match .match-detail .match-score,
+	.left-live table.live-match .match-detail .match-time{
+   		margin: 5px 3px;
+	}
+	.left-live table.live-match .match-detail{
+		display: table-row !important;
+	}
+	.data-market:last-child .oddbtn-row{
+		float: right;
+	}
+	.left-live .live-match .match-odds .oddbtn-row .oddbtn{
+    	margin-top: -19px!important;
+    	padding: 2px 5px 3px!important;
+	}
+	/*ODDBTN*/
+
+    /* HOMEPAGE */
+    .right-banner,
+    .day-match,
+	.casino-winner-ticker,
+    .best-users{
+		display: none !important;
+    }
+	.home-categories{
+		display: none;
+	}
+	#homepageSlider{
+		margin-top: -5px;
+	}
+    .btn-homepage{
+		padding: 13px 15px;
+		font-weight: 700;
+		margin-top: 10px;
+		color: #2f4c77;
+		letter-spacing: -.5px;
+		text-align: left;
+    }
+    .home-navigation .col-xs-6:nth-child(even) {
+		padding-left: 5px !important;
+		padding: 0;
+	}
+	.home-navigation .col-xs-6:nth-child(odd) {
+		padding-right: 5px !important;
+		padding: 0;
+	}
+    .btn-homepage i{
+		color: #1fae4b;
+		font-size: 16px;
+	    margin-right: 5px;
+    }
+	section .promotion-news,
+	section .best-coupon{
+		padding:0px 10px !important;
+	}
+ 	/* HOMEPAGE */
+
+	/* TICKET*/
+	.user-cat-right .ticket-info{
+		padding-top: 5px;
+		background: #f9f9f9;
+		display: table;
+		border-radius: 5px;
+		margin-bottom: 10px;
+		border: 1px solid #e8e8e8;
+		width: 91%;
+		margin-left: 4.4%;
+	}
+	.user-cat-right .ticket-info span{
+	  width: 100%;
+	  margin-bottom: 5px;
+	  float: left;
+	}
+	.user-cat-right .ticket-info span .label {
+	  width: 30%;
+	  float: right;
+	  margin-bottom: 0px;
+	  padding: 4px 0;
+	}
+	/* TICKET*/
+
+	/* SPORTSBOOK*/
+	.best-users{
+		display: none;
+	}
+	.carousel.sport-slider{
+   		margin: 10px 0 !important;
+	}
+	.carousel.sport-slider .match-name{
+	    font-size: 16px !important;
+	    margin: 5px 0 10px 0 !important;
+	}
+	.carousel.sport-slider .item .match-detail img{
+		width: 100%;
+	}
+	.carousel.sport-slider .item .match-detail span{
+	    font-size: 36px !important;
+	    margin: 12px 0 !important;
+	}
+	/* SPORTSBOOK*/
+
+	/* LIVE*/
+	.alert-event-table,
+	.live-tab-row, .full-width-row, .volume-option, .live-table{
+		display: none;
+	}
+	.tab-content{
+		margin-top: 0px !important;
+	}
+	.event-table{
+		padding:0px 0px 0px 15px !important;
+	}
+	.table-responsive{
+		border:none;
+	}
+	.left-live .outcome{
+		display: block;
+		width: 35% !important;
+		text-overflow: ellipsis;
+	    white-space: nowrap;
+	    overflow: hidden;
+	    text-align: left;
+	}
+
+	.left-live table.live-match{
+		margin-bottom: 0px;
+		width: 100%;
+	}
+	.left-live table.live-match .match-name th{
+	    padding: 8px 0 8px 10px !important;
+	}
+	.left-live table.live-match .match-name th a{
+	    display: inline-block;
+		width: 51%;
+	    overflow: hidden;
+	    text-overflow: ellipsis;
+	    white-space: nowrap;
+	    margin: 0px 10px;
+    	float: left;
+	}
+	.mobile-match-menu a{
+	    background: #ffffff !important;
+	    border-color: #c7c7c7 !important;
+        color: #000;
+	}
+	.mobile-match-menu li.active a,
+	.mobile-match-menu a:hover,
+	.mobile-match-menu a:focus{
+    	background: #009e59!important;
+    	border-color: #009e59!important;
+    	color: #fff;
+	}
+	.mobile-match-menu li.active a i,
+	.mobile-match-menu a:hover i,
+	.mobile-match-menu a:focus i{
+		color: #fff;
+	}
+	.mobile-match-menu i {
+		position: absolute;
+		left: 5px;
+		font-size: 29px;
+		top: 3px;
+		color: #009e59;
+	}
+	section .match-details .match-top.live-top .match-name{
+		padding-top: 0px !important;
+	}
+	section .match-details .match-top.live-top .away-team{
+		display: none;
+	}
+	#single_view{
+		opacity: 1!important;
+    	clear: both;
+	}
+	#single_view .iframe-row{
+		position: relative;
+	    height: 450px;
+    	z-index: 5;
+	}
+	#single_view .iframe-row .iframe-opacity{
+		height: 450px;
+		z-index: 55;
+	}
+	#single_view .iframe-row iframe{
+		position: absolute;
+		z-index: -1;
+		top: 0px;
+	}
+	#single_view.opened{
+		display: block !important;
+	}
+	#single_view .title-block{
+		text-align: left !important;
+   		padding: 7px 7px !important;
+	}
+	#single_view .title-block span{
+		text-overflow: ellipsis;
+	    white-space: nowrap;
+	    overflow: hidden;
+	    display: inline-block;
+	    width: 70%;
+	}
+	#single_view .title-block .badge{
+		display: inline-block !important;
+	    i
+	}
+	#single_view .match-score.score-single{
+		display: block !important;
+		clear: both;
+	}
+	#single_view .match-score{
+		display: none;
+	}
+	#single_view .pulse{
+		top: 60px !important;
+	}
+	/* LIVE*/
+
+	/* CASINO */
+
+	.casino-up:before{
+   	 	zoom: 42%;
+	}
+	.casino-up h1.slogan{
+		top:125px!important;
+	    font-size: 21px !important;
+	    line-height: 25px !important;
+	}
+	.casino-up a.action{
+   		margin: 240px 0 0px 0px !important;
+	}
+	.casino-box{
+    	zoom: 59%;
+	}
+	.slot-margin{
+	    margin-top: 103px;
+	}
+	.pro-page{
+    	height: 200px !important;
+	}
+
+	.pro-page h1.slogan {
+		top: 83px;
+		left: 8px;
+		position: absolute;
+		text-transform: uppercase;
+		letter-spacing: -1px;
+		letter-spacing: -1px;
+		text-transform: uppercase;
+		font-weight: 700;
+		font-size: 21px;
+		text-shadow: 1px 1px 3px black;
+		width: 55%;
+	}
+	.pro-page:after,
+	.pro-page:before,
+	div.slot-box .slot:before,
+	div.slot-box:after,
+	div.slot-box:before{
+    	zoom: 25%;
+	}
+	/* CASINO */
+
+	/* REGISTER */
+	.last-info,
+	.general-info .btn{
+ 	   margin: 10px 0 0 0 !important;
+	}
+	.form-control{
+	    margin-bottom: 5px;
+	}
+	/* REGISTER */
+	#loader-wrapper{
+		background: rgba(0, 37, 60, 0.68) !important;
+	}
+	#loader-wrapper .loader-container {
+    	zoom: 0.7;
+	}
+	.virtual-banner .virtual-text{
+	    font-size: 26px;
+	    margin: 10px 0;
+	}
+	figure.promotion img{
+		width: 100% !important;
+	}
+	figure.slot-box img{
+    	height: 90px;
+	}
+	figure.slot-box h3{
+	    padding: 6px 0;
+	    top: 55%;
+	    font-size: 10px;
+	}
+	/* Section */
+	footer{
+		display: none;
+	}
+	a#scrollup {
+	    position: fixed;
+	    bottom: 65px;
+	    right: 0%;
+	    z-index: 5;
+	    font-size: 34px;
+	    color: #fff;
+	    padding: 3px 0;
+	    display: inline;
+	    background: rgba(0, 0, 0, 0.52);
+	    width: 15%;
+	    text-align: center;
+	    border-radius: 5px 0px 0px 5px;
+	    display: none;
+	}
+	.casino-box .game-detail .provider,
+	.casino-box .game-detail span,
+	.casino-box .game-detail label{
+		font-size: 7px;
+	}
+	.casino-box .text{
+    	font-size: 12px !important;
+	}
+	.casino-box a.play{
+		font-size: 12px;
+	}
+
+}
+@media (max-width: 320px){
+	section .coupon-detail-label span{
+	  width: 96%!important;
+	}
+	.coupon-table{
+		font-size: 10px !important;
+	}
+	.casino-box {
+    zoom: 48% !important;
+	}
+	.casino-up:before {
+    zoom: 38% !important;
+	}
+}
+
+@media (min-width: 992px){
+	.mobile-numeric{
+		display: none;
+	}
+	.user-nav{
+		display: none;
+	}
+	.coupon-bottom,
+	.mobile-odds{
+		display: none !important;
+	}
+	.left-live table.live-match .match-name .mobile-icon,
+	.left-live table.live-match .match-name .mobile-time,
+	.left-live table.live-match .match-name .mobile-score{
+		display: none;
+	}
+	.slot-margin{
+		margin-top:330px;
+	}
+	.user-top{
+		background: #072430;
+	    position: relative;
+	    z-index: 9999;
+	}
+	 #scrollup{
+	    position: fixed;
+	    bottom: 5px;
+	    right: 23%;
+	    z-index: 5;
+	    font-size: 26px;
+	    color: #253542;
+	    display: none;
+	 }
+	 #scrollup:hover {
+	    color: #009e59;
+	}
+	#special-odd-table .special_match_detail iframe{
+    	height: 100%;
+	}
+	.btn.action{
+    	margin-top: 310px !important;
+	}
+}
+
+@media only screen and (min-width: 1024px) and (max-width:1189px){
+  header nav.top-menu ul li a{
+    padding: 15px 9px !important;
+  }
+  section .container .title-block .title-count{
+  	display: none;
+  }
+ .coupon-row.fixed{
+    width: 28% !important;
+ }
+}

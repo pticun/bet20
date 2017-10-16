@@ -1,0 +1,15 @@
+.coupon-row.fixed {
+    position: relative;
+    width: auto;
+    z-index: 1000;
+    margin-bottom: 0px !important;
+    transition: all 0.3s ease-in-out;
+}
+
+.coupon-row .duello-matches, .coupon-row .coupon-matches {
+    height:auto;
+    min-height: 255px;
+    max-height: 255px;
+    overflow-y: scroll;
+    background: #092d3d;
+}

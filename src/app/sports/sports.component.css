@@ -1,0 +1,16 @@
+.fav-league.sport-cat.pt-10 ul.nav {
+    max-height: 265px;
+    overflow-y: scroll
+
+}
+nav.sport-cat.pt-10 ul.nav {
+    max-height: 265px;
+    overflow-y: scroll
+
+}
+
+.sport-cat .nav>li>a { 
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    /* max-width: 200px; */
+}

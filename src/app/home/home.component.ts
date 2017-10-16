@@ -1,9 +1,10 @@
-import { Component, OnInit} from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { SocketService } from '../socket.service';
 import { Store } from '@ngrx/store';
 import { Router, ActivatedRoute } from '@angular/router';
 import { INCREMENT, DECREMENT, RESET } from '../ngrx/counter';
 import { LOGIN, LOGOUT } from '../ngrx/auth';
+import { initialData } from '../ngrx/auth';
 import * as _ from 'underscore';
 @Component({
   selector: 'app-home',
@@ -11,33 +12,31 @@ import * as _ from 'underscore';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-  sliderSrc : any
+  sliderSrc: any
   rootPath = 'https://www.moxbet1.com/banner/'
-  latestCoupon : any = []
+  latestCoupon: any = []
   un = _
-  constructor(private socketService: SocketService,private router: Router, private store: Store<any>) {
-      
-    };
-ngOnInit() : void {
-  //this.store.dispatch({ type: LOGOUT });
-   this.getPress()
-}
-  getPress() : void {
-    this.socketService
-    .getLogin('homepage')
-    .subscribe(data => {
+  constructor(private socketService: SocketService, private router: Router, private store: Store<any>) {
 
-      if (data.sliders) {
-        //Object.values(data.sliders)
-        //const ids : any[] = Object.keys(data.sliders)
+  };
+  ngOnInit(): void {
+    //this.store.dispatch({ type: LOGOUT });
+    this.getPress()
+  }
+  getPress(): void {
+    this.sliderSrc = initialData.homepage.sliders
+    this.latestCoupon = initialData.homepage.latestCoupon
+    if (!initialData.homepage) {
+      this.socketService
+        .getLogin('homepage')
+        .subscribe(data => {
+          initialData.homepage = data
+          if (data.sliders) {
+            this.sliderSrc = data.sliders
+          }
+          this.latestCoupon = data.latestCoupon
+        })
+    }
 
-        //eArr = eArr.concat(ids)
-       //this.sliderSrc = Object.keys(data.sliders)
-       this.sliderSrc = data.sliders
-        //this.sliderSrc['keys'] = Object.keys(data.sliders)
-        //this.sliderSrc['values'] = Object.values(data.sliders)
-      }
-      this.latestCoupon = data.latestCoupon
-    })
   }
 }

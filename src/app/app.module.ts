@@ -22,6 +22,9 @@ import { LoginBarComponent } from "./parts/loginBar/loginBar.component";
 
 import { SportsComponent } from './sports/sports.component';
 import { HomeComponent } from './home/home.component';
+import { CouponSidebarComponent } from './coupon-sidebar/coupon-sidebar.component';
+import { CasinoComponent } from './casino/casino.component';
+import { SlotComponent } from './slot/slot.component';
 //Components
 
 
@@ -31,6 +34,8 @@ const appRoutes: Routes = [
   { path: 'sports', component: SportsComponent },
   { path: 'live', component: LiveComponent },
   { path: 'login', component: LoginComponent },
+  { path: 'casino', component: CasinoComponent },
+  { path: 'slot', component: SlotComponent },
   {
     path: 'my',
     canActivate: [AdmGuard],
@@ -61,7 +66,12 @@ options: {}};
   LoginComponent,
   HomeComponent,
   DerpPipe,
-  LoginBarComponent
+  LoginBarComponent,
+  CouponSidebarComponent
+,
+    CasinoComponent
+,
+    SlotComponent
 ],
   imports: [
   BrowserModule,

@@ -1,0 +1,274 @@
+<div class="coupon-row fixed">
+  <div role="button" data-toggle="collapse" data-parent="#accordion" href="#coupon_section" aria-expanded="true" aria-controls="coupon_section"
+    class="title-block coupon-title text-center">
+    <span class="pull-left badge-2 coupon-title-ico">
+      <i class="fa fa-chevron-down" aria-hidden="true"></i>
+    </span>BAHİS KUPONUM
+    <span class="coupon-piece">{{un.size(coupons)}}</span>
+  </div>
+  <div class="coupon-inc in" id="coupon_section" role="tabpanel" aria-labelledby="headingOne" aria-expanded="true">
+    <div class="coupon-settings">
+      <div class="col-md-12">
+        <div class="row">
+          <div class="col-md-3 col-xs-3 coupon-piece-row">
+            <div class="row">
+              <span class="coupon-piece">0</span> ADET
+            </div>
+          </div>
+          <div class="col-md-6 col-xs-7 ">
+            <div class="row">
+              <a class="clear-bets pull-right" 
+              (click)="cleanCoupons()"
+              >
+                <span class="icon mr-10">
+                  <i class="fa fa-ban" aria-hidden="true"></i>
+                </span> 
+                 Temizle</a>
+            </div>
+          </div>
+          <div class="col-md-3 col-xs-2 ">
+            <div class="row">
+              <a href="/" data-toggle="tooltip" role="button" data-placement="bottom" title="Kuponlarım" target="_blank" class="fix-coupon">
+                <i class="fa fa-ticket" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="coupon-type uppercase">
+      <ul class="nav nav-pills" role="tablist" id="coupon_type">
+        <li role="presentation">
+          <a href="#single" aria-controls="single" role="tab" data-toggle="tab">TEKLİ</a>
+        </li>
+        <li role="presentation">
+          <a href="#combine" aria-controls="combine" role="tab" data-toggle="tab">KOMBİNE</a>
+        </li>
+        <li role="presentation" class="hidden">
+          <a href="#system" aria-controls="system" role="system" data-toggle="tab">SİSTEM</a>
+        </li>
+      </ul>
+    </div>
+    <div class="coupon-matches">
+      <!-- NGFOR -->
+      <ng-container *ngFor="let ckey of un.keys(coupons); let i=index">
+        <div class="coupon-match">
+          <div class="col-md-9 col-xs-7 coupon-match-left">
+            <span class="match-name pull-left">{{coupons[ckey]?.match.teams.home.tr}} - {{coupons[ckey]?.match.teams.away.tr}}</span>
+            <div class="match-bet">Maç sonucu (1) </div>
+          </div>
+          <div class="col-md-3 col-xs-5 coupon-match-right">
+            <a 
+              data-market="991226131210" 
+              data-outcome="1" 
+              data-sport="0" 
+              data-value="2.3" 
+              data-sbv=""
+              (click)="updateCoupon(coupons[ckey])"
+              >
+              <span class="coupon-remove">
+                <i class="fa fa-times" aria-hidden="true"></i>
+              </span>
+            </a>
+            <a href="javascript:;" style="display:none">
+              <span class="system-sharp" data-favorite="" style="display: none;">B</span>
+            </a>
+            <div class="coupon-match-odd-row" data-betstatus="started" data-active="1">
+              <div class="oddbtn">{{coupons[ckey]?.odd.value}} </div>
+            </div>
+          </div>
+          <div class="single-amount" style="display: block;">
+            <div class="col-md-9 col-xs-6 single-amount-title">Yatırmak istediğiniz tutar</div>
+            <div class="col-md-3 col-xs-6 input-group">
+              <input type="text" class="form-control bet-amount" pattern="^\d+\.\d{2}$" title="Yatıracağınız tutarı lütfen kuruşlu olarak giriniz. Örn: '100.50' şeklinde giriniz."
+                data-id="12261312" value="1">
+              <div class="click-numeric"></div>
+              <span class="input-group-addon">
+                <i class="fa fa-try" aria-hidden="true"></i>
+              </span>
+            </div>
+            <div class="col-xs-12 mobile-numeric mobile-numeric-single" data-betid="12261312">
+              <div class="row">
+                <button class="btn mobile-bet-input btn-info" data-number="1">1</button>
+                <button class="btn mobile-bet-input btn-info" data-number="2">2</button>
+                <button class="btn mobile-bet-input btn-info" data-number="3">3</button>
+                <button class="btn mobile-bet-input btn-info" data-number="4">4</button>
+                <button class="btn mobile-bet-input btn-info" data-number="5">5</button>
+                <button class="btn mobile-bet-input btn-info" data-number="6">6</button>
+                <button class="btn mobile-bet-input btn-info" data-number="7">7</button>
+                <button class="btn mobile-bet-input btn-info" data-number="8">8</button>
+                <button class="btn mobile-bet-input btn-info" data-number="9">9</button>
+                <button class="btn mobile-bet-input btn-info" data-number="0">0</button>
+                <button class="btn mobile-bet-input btn-info under" data-number=".">.</button>
+                <button class="btn mobile-bet-input btn-info under" data-number="del">
+                  <i class="fa fa-chevron-left"></i> Sil</button>
+                <button class="btn mobile-bet-input btn-info under" data-number="close">
+                  <i class="fa fa-check"></i> Tamamla</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </ng-container>
+
+
+
+
+    </div>
+    <div class="coupon-action">
+      <div class="tab-content">
+        <!-- SINGLE COUPON -->
+        <div class="tab-pane active in fade hide" id="single">
+          <div class="coupon-type-title">TEKLİ KUPON
+            <i class="fa fa-info-circle" data-toggle="tooltip" role="button" data-placement="top" title="Tekli bahis tek maç için bir bahis kuponu oluşturmaktır, birden daha fazla maç bahsi kupona eklemeniz durumunda her maç bahsi için tek tek kupon oluşturur."></i>
+
+          </div>
+        </div>
+        <!-- COMBINE COUPON -->
+        <div class="tab-pane fade hide" id="combine">
+          <div class="coupon-type-title">KOMBİNE KUPON
+            <i class="fa fa-info-circle" data-toggle="tooltip" role="button" data-placement="top" title="Kombine bahis en yaygın bahis türüdür. ''Birleşik bahis'' de denilen kombine bahis, birden daha fazla bahsi bir bahis kuponunda birleştirerek hepsini bilmek amacıyla oynanmaktadır."></i>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="row">
+            <div class="col-md-7 col-xs-6 coupon-action-left bet-amount-title">BAHİS TUTARI:</div>
+            <div class="col-md-5 col-xs-6 coupon-action-right">
+              <div class="input-group coupon-amount">
+                <input type="text" class="form-control" pattern="^\d+\.\d{2}$" title="Yatıracağınız tutarı lütfen kuruşlu olarak giriniz. Örn: '100.50' şeklinde giriniz."
+                  id="bet_amount" min="0">
+                <div class="click-numeric-combine"></div>
+                <span class="input-group-addon">
+                  <i class="fa fa-curren" aria-hidden="true"></i>
+                </span>
+              </div>
+            </div>
+            <div class="col-xs-12 mobile-numeric mobile-numeric-combine">
+              <div class="row">
+                <button class="btn mobile-bet-input btn-info" data-number="1">1</button>
+                <button class="btn mobile-bet-input btn-info" data-number="2">2</button>
+                <button class="btn mobile-bet-input btn-info" data-number="3">3</button>
+                <button class="btn mobile-bet-input btn-info" data-number="4">4</button>
+                <button class="btn mobile-bet-input btn-info" data-number="5">5</button>
+                <button class="btn mobile-bet-input btn-info" data-number="6">6</button>
+                <button class="btn mobile-bet-input btn-info" data-number="7">7</button>
+                <button class="btn mobile-bet-input btn-info" data-number="8">8</button>
+                <button class="btn mobile-bet-input btn-info" data-number="9">9</button>
+                <button class="btn mobile-bet-input btn-info" data-number="0">0</button>
+                <button class="btn mobile-bet-input btn-info under" data-number=".">.</button>
+                <button class="btn mobile-bet-input btn-info under" data-number="del">
+                  <i class="fa fa-chevron-left"></i> Sil</button>
+                <button class="btn mobile-bet-input btn-info under" data-number="close">
+                  <i class="fa fa-check"></i> Tamamla</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="row">
+            <div class="col-md-7 col-xs-6 coupon-action-left total-rate-title">TOPLAM ORAN:</div>
+            <div class="col-md-5 col-xs-6 coupon-action-right">
+              <div class="coupon-winnings">
+                <span id="total_rate">0.00</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="row">
+            <div class="col-md-7 col-xs-6 coupon-action-left">MAKSİMUM KAZANÇ:</div>
+            <div class="col-md-5 col-xs-6 coupon-action-right">
+              <div class="coupon-winnings">
+                <span id="estimated_win">0.00</span> tl</div>
+            </div>
+          </div>
+        </div>
+        <!-- SYSTEM COUPON -->
+        <!--
+                                    <div class="tab-pane fade" id=".system">
+                                        <div class="coupon-type-title">SİSTEM KUPON <i class="fa fa-info-circle" aria-hidden="true"></i></div>
+                                        <div class="systeminc">
+                                            <ul id="system_options">
+                                                <li>
+                                                    <div class="checkbox">
+                                                      <label class="coupon-label">
+                                                        <input type="checkbox" name="system" value="1">
+                                                        <span class="cr"><i class="cr-icon fa fa-check" aria-hidden="true"></i></span>
+                                                         <span>1</span>Lİ KOMBİNELER (<span>10</span> BAHİS)
+                                                      </label>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="col-md-7 coupon-action-left bet-amount-title">BAHİS TUTARI:</div>
+                                            <div class="col-md-5 coupon-action-right">
+                                                <select id="system-total-rate" class="form-control">
+                                                  <option value="1">1</option>
+                                                  <option value="2">4</option>
+                                                  <option value="3">6</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="col-md-7 coupon-action-left total-rate-title">TOPLAM ORAN:</div>
+                                            <div class="col-md-5 coupon-action-right">
+                                                <div class="coupon-winnings"><span id="total_rate">0.00</span></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="col-md-7 coupon-action-left">MUHTEMAL KAZANÇ:</div>
+                                            <div class="col-md-5 coupon-action-right">
+                                                <div class="coupon-winnings"><span id="estimated_win">0.00</span> {{ isset(Auth::user()->currency) ? Auth::user()->currency : \Config::get('app.currencies.0') }}</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                -->
+      </div>
+      <div class="clearfix"></div>
+      <div class="checkbox">
+        <label class="coupon-label">
+          <input name="accept_up" type="checkbox" value="on">
+          <span class="cr">
+            <i class="cr-icon fa fa-check" aria-hidden="true"></i>
+          </span>
+          YÜKSELEN ORANLARI KABUL ET
+        </label>
+      </div>
+      <div class="checkbox">
+        <label class="coupon-label">
+          <input name="accept_down" type="checkbox" value="on">
+          <span class="cr">
+            <i class="cr-icon fa fa-check" aria-hidden="true"></i>
+          </span>
+          DÜŞEN ORANLARI KABUL ET
+        </label>
+      </div>
+      <div class="checkbox">
+        <label class="coupon-label">
+          <input name="use_bonus" type="checkbox" value="on">
+          <span class="cr">
+            <i class="cr-icon fa fa-check" aria-hidden="true"></i>
+          </span>
+          BONUS KULLAN
+        </label>
+      </div>
+      <button type="button" class="btn place-bet-btn btn-primary" data-type="ajax" data-action="my/coupons/create" data-method="POST"
+        data-callback="createCoupon" data-bonus="false">KUPONU YAP</button>
+    </div>
+  </div>
+</div>
+<div class="coupon-bottom col-md-12">
+  <div class="text-center fs-12">Lütfen giriş yapınız</div>
+  <a href="" class="count col-xs-4 pull-left" data-toggle="tooltip" data-placement="bottom" title="Bekleyen Kuponunuz" data-delay='500'>
+    <i class="fa fa-file-text-o" aria-hidden="true"></i>
+    <span class="wallet_coupon">10</span>
+    Kupon</a>
+  <div class="balance col-xs-7 pull-right">
+    Bakiyeniz:
+    <span id="wallet_cash">100 tl
+      <i class="fa fa-currency"></i>
+    </span>
+  </div>
+
+</div>

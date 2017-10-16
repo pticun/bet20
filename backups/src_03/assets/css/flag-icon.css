@@ -1,0 +1,131 @@
+.flag-icon-background {
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+.flag-icon {
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  position: relative;
+  display: inline-block;
+  width: 1.33333333em;
+  line-height: 1em;
+}
+
+.flag{
+    height:16px;width:16px;
+    vertical-align:text-top;background:url(../images/flags-sprite.png) !important;
+    float: left;
+    margin-top: 0;
+    margin-right: 10px;
+    border-radius: 2px;
+}
+.flag-icon:before {
+  content: "\00a0";
+}
+.flag-icon-ad {background-position:0 -352px !important !important;}
+.flag-icon-ae, .flag-radar299, .flag-radar540 {background-position:0 -368px !important;}
+.flag-icon-al, .flag-radar257, .flag-radar837, .flag-radar941 {background-position:0 -432px !important }
+.flag-icon-am, .flag-radar296 {background-position:0 -448px !important;}
+.flag-icon-ao, .flag-radar500 {background-position:0 -464px !important;}
+.flag-icon-ar, .flag-radar48, .flag-radar264, .flag-radar374{background-position:0 -496px !important;}
+.flag-icon-at, .flag-radar17, .flag-radar65, .flag-radar69, .flag-radar128, .flag-radar170, .flag-radar97 {background-position:0 -528px !important;}
+.flag-icon-au, .flag-radar34, .flag-radar113, .flag-radar491 {background-position:0 -544px !important;}
+.flag-icon-az, .flag-radar297, .flag-radar751 {background-position:0 -592px !important;}
+.flag-icon-ba, .flag-radar158, .flag-radar399, .flag-radar404 {background-position:0 -608px !important;}
+.flag-icon-bg, .flag-radar78, .flag-radar332, .flag-radar372 {background-position:0 -688px !important;}
+.flag-icon-bh, .flag-radar351 {background-position:0 -704px !important;}
+.flag-icon-bo, .flag-radar379 {background-position:0 -784px !important;}
+.flag-icon-br, .flag-radar13, .flag-radar202, .flag-radar263, .flag-radar373 {background-position:0 -800px !important;}
+.flag-icon-bw, .flag-radar804 {background-position:0 -848px !important;}
+.flag-icon-by, .flag-radar91, .flag-radar275, .flag-radar400, .flag-radar750, .flag-radar813 {background-position:0 -864px !important;}
+.flag-icon-ca, .flag-radar93, .flag-radar176, .flag-radar388 {background-position:0 -896px !important;}
+.flag-icon-ch, .flag-radar25, .flag-radar54, .flag-radar125, .flag-radar312 {background-position:0 -960px !important;}
+.flag-icon-cl, .flag-radar49 {background-position:0 -1008px !important;}
+.flag-icon-cn, .flag-radar99, .flag-radar548, .flag-radar771{background-position:0 -1040px !important;}
+.flag-icon-co, .flag-radar274 {background-position:0 -1056px !important;}
+.flag-icon-cr, .flag-radar289 {background-position:0 -1072px !important;}
+.flag-icon-cy, .flag-radar102, .flag-radar574 {background-position:0 -1120px !important;}
+.flag-icon-cz, .flag-radar18, .flag-radar42, .flag-radar154, .flag-radar173, .flag-radar187, .flag-radar196 {background-position:0 -1136px !important;}
+.flag-icon-de, .flag-radar30, .flag-radar41, .flag-radar53, .flag-radar111, .flag-radar123, .flag-radar145, .flag-radar210, .flag-radar122 {background-position:0 -1152px !important;}
+.flag-icon-dk, .flag-radar8, .flag-radar59, .flag-radar64, .flag-radar199, .flag-radar244, .flag-radar95 {background-position:0 -1184px !important;}
+.flag-icon-dz, .flag-radar304 {background-position:0 -1232px !important;}
+.flag-icon-ec, .flag-radar165 {background-position:0 -1248px !important;}
+.flag-icon-ee, .flag-radar92, .flag-radar194, .flag-radar408, .flag-radar482 {background-position:0 -1264px !important;}
+.flag-icon-eg, .flag-radar305 {background-position:0 -1280px !important;}
+.flag-icon-es, .flag-radar32, .flag-radar71, .flag-radar109, .flag-radar129, .flag-radar183, .flag-radar421 {background-position:0 -1328px !important;}
+.flag-icon-fi, .flag-radar19, .flag-radar40, .flag-radar70, .flag-radar116, .flag-radar132, .flag-radar135, .flag-radar149, .flag-radar597, .flag-radar207 {background-position:0 -1360px !important;}
+.flag-icon-fr, .flag-radar7, .flag-radar110, .flag-radar121, .flag-radar180, .flag-radar242, .flag-radar1218 {background-position:0 -1424px !important;}
+.flag-icon-en, .flag-radar1, .flag-radar89, .flag-radar117, .flag-radar261, .flag-radar307, .flag-radar252 {background-position:0 -112px !important;}
+.flag-icon-ge, .flag-radar270, .flag-radar818 {background-position:0 -1488px !important;}
+.flag-icon-gh, .flag-radar542 {background-position:0 -1520px !important;}
+.flag-icon-gi, .flag-radar938 {background-position:0 -1536px !important;}
+.flag-icon-gr, .flag-radar67, .flag-radar108, .flag-radar179, .flag-radar249 {background-position:0 -1632px !important;}
+.flag-icon-gt, .flag-radar365 {background-position:0 -1648px !important;}
+.flag-icon-hk, .flag-radar339, .flag-radar783 {background-position:0 -1712px !important;}
+.flag-icon-hn, .flag-radar437 {background-position:0 -1728px !important;}
+.flag-icon-hr, .flag-radar14, .flag-radar190, .flag-radar191, .flag-radar214, .flag-radar283, .flag-radar826 {background-position:0 -1744px !important;}
+.flag-icon-hu, .flag-radar11, .flag-radar151, .flag-radar192, .flag-radar285, .flag-radar232, .flag-radar536 {background-position:0 -1776px !important;}
+.flag-icon-id, .flag-radar368, .flag-radar780, .flag-radar892 {background-position:0 -1792px !important;}
+.flag-icon-ie, .flag-radar51, .flag-radar534, .flag-radar550, .flag-radar130 {background-position:0 -1808px !important;}
+.flag-icon-il, .flag-radar66, .flag-radar188, .flag-radar410, .flag-radar742, .flag-radar749 {background-position:0 -1824px !important;}
+.flag-icon-in, .flag-radar352, .flag-radar497 {background-position:0 -1856px !important;}
+.flag-icon-ir, .flag-radar301, .flag-radar798 {background-position:0 -1888px !important;}
+.flag-icon-is, .flag-radar10, .flag-radar245, .flag-radar546 {background-position:0 -1904px !important;}
+.flag-icon-it, .flag-radar31, .flag-radar107, .flag-radar126, .flag-radar127, .flag-radar172, .flag-radar185, .flag-radar414, .flag-radar510 {background-position:0 -1920px !important;}
+.flag-icon-jm, .flag-radar502 {background-position:0 -1952px !important;}
+.flag-icon-jo, .flag-radar329 {background-position:0 -1968px !important;}
+.flag-icon-jp, .flag-radar52, .flag-radar211, .flag-radar483, .flag-radar561, .flag-radar923 {background-position:0 -1984px !important;}
+.flag-icon-ke, .flag-radar805 {background-position:0 -2000px !important;}
+.flag-icon-kp, .flag-radar291, .flag-radar375, .flag-radar384, .flag-radar447, .flag-radar845{background-position:0 -2096px !important;}
+.flag-icon-kw, .flag-radar331, .flag-radar899 {background-position:0 -2128px !important;}
+.flag-icon-kz, .flag-radar278, .flag-radar811 {background-position:0 -2160px !important;}
+.flag-icon-lt, .flag-radar160, .flag-radar168, .flag-radar412 {background-position:0 -2288px !important;}
+.flag-icon-lv, .flag-radar163, .flag-radar258, .flag-radar409 {background-position:0 -2320px !important;}
+.flag-icon-ma, .flag-radar303 {background-position:0 -2352px !important;}
+.flag-icon-md, .flag-radar279, .flag-radar778 {background-position:0 -2368px !important;}
+.flag-icon-me, .flag-radar386, .flag-radar506 {background-position:0 -2384px !important;}
+.flag-icon-mk, .flag-radar159, .flag-radar401, .flag-radar747 {background-position:0 -2432px !important;}
+.flag-icon-mo, .flag-radar773 {background-position:0 -2496px !important;}
+.flag-icon-mt, .flag-radar134 {background-position:0 -2560px !important;}
+.flag-icon-mx, .flag-radar12, .flag-radar395 {background-position:0 -2624px !important;}
+.flag-icon-my, .flag-radar85 {background-position:0 -2640px !important;}
+.flag-icon-ng, .flag-radar532 {background-position:0 -2720px !important;}
+.flag-icon-nl, .flag-radar35, .flag-radar328 {background-position:0 -2752px !important;}
+.flag-icon-no, .flag-radar5, .flag-radar38, .flag-radar58, .flag-radar137, .flag-radar94 {background-position:0 -2768px !important;}
+.flag-icon-nz, .flag-radar148, .flag-radar499 {background-position:0 -2816px !important;}
+.flag-icon-om, .flag-radar415 {background-position:0 -2832px !important;}
+.flag-icon-pa, .flag-radar526 {background-position:0 -2848px !important;}
+.flag-icon-pe, .flag-radar20, .flag-radar714, .flag-radar748 {background-position:0 -2864px !important;}
+.flag-icon-ph, .flag-radar539, .flag-radar847, .flag-radar860 {background-position:0 -2912px !important;}
+.flag-icon-pl, .flag-radar47, .flag-radar115, .flag-radar284, .flag-radar311, .flag-radar313, .flag-radar429 {background-position:0 -2944px !important;}
+.flag-icon-pt, .flag-radar44, .flag-radar186, .flag-radar265, .flag-radar286, .flag-radar287 {background-position:0 -2992px !important;}
+.flag-icon-py, .flag-radar280 {background-position:0 -3024px !important;}
+.flag-icon-qa, .flag-radar353, .flag-radar838, .flag-radar919 {background-position:0 -3040px !important;}
+.flag-icon-ro, .flag-radar77, .flag-radar298, .flag-radar324, .flag-radar398, .flag-radar537{background-position:0 -3072px !important;}
+.flag-icon-rs, .flag-radar152, .flag-radar288, .flag-radar340, .flag-radar403, .flag-radar743 {background-position:0 -3088px !important;}
+.flag-icon-ru, .flag-radar21, .flag-radar101, .flag-radar133, .flag-radar157, .flag-radar262, .flag-radar269, .flag-radar302 {background-position:0 -3104px !important;}
+.flag-icon-rw, .flag-radar951 {background-position:0 -3120px !important;}
+.flag-icon-sa, .flag-radar310 {background-position:0 -3136px !important;}
+.flag-icon-sd, .flag-radar476 {background-position:0 -3184px !important;}
+.flag-icon-se, .flag-radar9, .flag-radar39, .flag-radar60, .flag-radar63, .flag-radar75, .flag-radar114, .flag-radar177, .flag-radar155 {background-position:0 -3200px !important;}
+.flag-icon-sg, .flag-radar45 {background-position:0 -3216px !important;}
+.flag-icon-sk, .flag-radar23, .flag-radar98, .flag-radar300, .flag-radar383, .flag-radar457, .flag-radar24, .flag-radar292, .flag-radar325, .flag-radar460, .flag-radar586 {background-position:0 -3248px !important;}
+.flag-icon-sm, .flag-radar387 {background-position:0 -3280px !important;}
+.flag-icon-sy, .flag-radar380 {background-position:0 -3376px !important;}
+.flag-icon-th, .flag-radar485 {background-position:0 -3456px !important;}
+.flag-icon-tr, .flag-radar46, .flag-radar112, .flag-radar195, .flag-radar413, .flag-radar254 {background-position:0 -3552px !important;}
+.flag-icon-tz, .flag-radar803 {background-position:0 -3616px !important;}
+.flag-icon-ua, .flag-radar86, .flag-radar267, .flag-radar402, .flag-radar406, .flag-radar587, .flag-radar761 {background-position:0 -3632px !important;}
+.flag-icon-ug, .flag-radar824 {background-position:0 -3648px !important;}
+.flag-icon-us, .flag-radar15, .flag-radar16, .flag-radar26, .flag-radar37, .flag-radar43 {background-position:0 -3664px !important;}
+.flag-icon-uy, .flag-radar57, .flag-radar549, .flag-radar1007 {background-position:0 -3680px !important;}
+.flag-icon-uz, .flag-radar385 {background-position:0 -3696px !important;}
+.flag-icon-ve, .flag-radar281, .flag-radar839 {background-position:0 -3744px !important;}
+.flag-icon-vn, .flag-radar366 {background-position:0 -3792px !important;}
+.flag-icon-za, .flag-radar322, .flag-radar744 {background-position:0 -3856px !important;}
+.flag-icon-zm, .flag-radar812 {background-position:0 -3872px !important;}
+.flag-icon-gb-eng, .flag-radar1 {background-position:0 -22999px;}
+.flag-icon-gb-wls, .flag-radar131 {background-position:0 -336px !important;}
+.flag-icon-gb-sct, .flag-radar22 {background-position:0 -272px !important;}

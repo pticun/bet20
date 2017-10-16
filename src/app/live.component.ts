@@ -15,17 +15,17 @@ export class LiveComponent{
   indexVirtual : number = 0
   constructor(private socketService : SocketService) {
     //önce mevcut aktif maçları alır
-    this.fetchFirstData()
+    //this.fetchFirstData()
     //her x saniyede yeni data varmı kontrol eder
     setInterval(() => {
-      this.fetchFirstData()
+      //this.fetchFirstData()
     }, 15 * 60000);
     //soketi live olarak dinle
 
     //dinledikten sonra şurayı çalıştırır
     setTimeout(() => {
-      this.sendMsg('live')
-      this.connectSocketNew()
+      //this.sendMsg('live')
+      //this.connectSocketNew()
     }, 6000)
 
   }

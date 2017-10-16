@@ -26,13 +26,13 @@ export class SocketService {
   objectVals = Object.values;
   liste : any
   OUT_API = 'https://www.moxbet1.com/rest/v1/';
-  proxyurl = 'https://cors-anywhere.herokuapp.com/';
+  proxyurl = window.corsProxy;
   constructor(private http: Http, private socket: Socket) {
-    if (window.location.hostname == 'www.moxbet1.com') {
+    if (window.location.hostname == 'www.moxbet1.com2') {
       this.OUT_API = '/rest/v1/';
       this.proxyurl = '';
     }
-    if (window.location.hostname == 'localhost') {
+    if (window.location.hostname == 'localhost2') {
       this.OUT_API = 'https://betdemo.dev/rest/v1/';
       this.proxyurl = '';
     }

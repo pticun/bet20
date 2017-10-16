@@ -1,0 +1,94 @@
+          <!-- Page container -->
+          <div class="page-container">
+              <!-- Page content -->
+              <div class="page-content">
+  
+                <div class="content-wrapper" >
+                  <div class="row">
+<div class="col-lg-3">
+    
+                  <!-- User thumbnail -->
+                  <div class="thumbnail hide">
+                    <div class="thumb thumb-rounded thumb-slide">
+                      <img src="assets/images/placeholder.jpg" alt="">
+                      <div class="caption">
+                        <span>
+                          <a href="#" class="btn bg-success-400 btn-icon btn-xs" data-popup="lightbox"><i class="icon-plus2"></i></a>
+                          <a href="user_pages_profile.html" class="btn bg-success-400 btn-icon btn-xs"><i class="icon-link"></i></a>
+                        </span>
+                      </div>
+                    </div>
+                  
+                      <div class="caption text-center">
+                        <h6 class="text-semibold no-margin">Hanna Dorman <small class="display-block">UX/UI designer</small></h6>
+                        <ul class="icons-list mt-15">
+                                  <li><a href="#" data-popup="tooltip" title="Google Drive"><i class="icon-google-drive"></i></a></li>
+                                  <li><a href="#" data-popup="tooltip" title="Twitter"><i class="icon-twitter"></i></a></li>
+                                  <li><a href="#" data-popup="tooltip" title="Github"><i class="icon-github"></i></a></li>
+                                </ul>
+                      </div>
+                    </div>
+                    <!-- /user thumbnail -->
+
+                    
+							<!-- Navigation -->
+					    	<div class="panel panel-flat">
+                    <div class="panel-heading">
+                      <h6 class="panel-title">HESABIM</h6>
+                      <div class="heading-elements">
+                        <a href="#" class="heading-text">See all &rarr;</a>
+                              </div>
+                    </div>
+    
+                    <div class="list-group no-border no-padding-top">
+                    <a class="list-group-item" *ngFor="let item of sidebarData.account" routerLink="{{item.name}}" routerLinkActive="active">
+                        <i class="icon-file-text2"icon-file-text2></i>
+                         {{item.title}} 
+                      </a>
+                     </div>
+                  </div>
+                  <!-- /navigation -->
+
+                  													<!-- Navigation -->
+					    	<div class="panel panel-flat">
+                    <div class="panel-heading">
+                      <h6 class="panel-title">HAREKETLERİM</h6>
+                      <div class="heading-elements">
+                        <a href="#" class="heading-text">See all &rarr;</a>
+                              </div>
+                    </div>
+    
+                    <div class="list-group no-border no-padding-top">
+                    <a class="list-group-item" *ngFor="let item of sidebarData.logs" routerLink="{{item.name}}" routerLinkActive="active">
+                        <i class="icon-file-text2"></i>
+                         {{item.title}} 
+                      </a>
+                    </div>
+                  </div>
+                  <!-- /navigation -->
+                                    													<!-- Navigation -->
+					    	<div class="panel panel-flat">
+                    <div class="panel-heading">
+                      <h6 class="panel-title">FİNANSAL İŞLEMLER</h6>
+                      <div class="heading-elements">
+                        <a href="#" class="heading-text">See all &rarr;</a>
+                              </div>
+                    </div>
+    
+                    <div class="list-group no-border no-padding-top">
+                    <a class="list-group-item" *ngFor="let item of sidebarData.finance" routerLink="{{item.name}}" routerLinkActive="active">
+                        <i class="icon-file-text2"></i>
+                         {{item.title}} 
+                      </a>
+                    </div>
+                  </div>
+                  <!-- /navigation -->
+</div>
+<div class="col-lg-9">
+    <router-outlet></router-outlet>
+
+</div>
+</div>
+</div>
+</div>
+</div>

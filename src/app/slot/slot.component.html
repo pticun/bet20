@@ -1,0 +1,198 @@
+<style>
+  section {
+    display: inline !important;
+  }
+</style>
+<div class="clearfix"></div>
+<div class="container">
+  <div id="slotSlider" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <ng-container *ngFor="let slide of sliders">
+        <div class="item active">
+
+          <a href="">
+            <img src="{{rootPath + slide.id}}">
+          </a>
+        </div>
+
+      </ng-container>
+    </div>
+  </div>
+  <div style="margin-top:20px"></div>
+
+
+  <nav class="navbar navbar-default navbar-slot">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+          aria-controls="navbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand fs-14 col-xs-7 col-md-12">
+          <input type="text" placeholder="Oyun Arayın" aria-describedby="basic-addon3" class="form-control" id="search_game">
+        </a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav selectgame">
+          <li>
+            <a style="padding:15px 5px !important;" href="#" role="tab" data-toggle="tab" onclick="selectCategory(this);" data-provider="netent"
+              data-category="video-slots">NETENT</a>
+          </li>
+          <li>
+            <a style="padding:15px 5px !important;" href="#" role="tab" data-toggle="tab" onclick="selectCategory(this);" data-provider="novomatic"
+              data-category="video-slots">NOVOMATIC</a>
+          </li>
+          <li>
+            <a style="padding:15px 5px !important;" href="#" role="tab" data-toggle="tab" onclick="selectCategory(this);" data-provider="playtech"
+              data-category="video-slots">PLAYTECH</a>
+          </li>
+          <li>
+            <a style="padding:15px 5px !important;" href="#" role="tab" data-toggle="tab" onclick="selectCategory(this);" data-provider="amatic"
+              data-category="video-slots">AMATIC</a>
+          </li>
+          <li class="dropdown">
+            <a style="padding:15px 5px !important;" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+              aria-expanded="false">TOMHORN
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="#" role="tab" data-toggle="tab" onclick="selectCategory(this);" data-provider="tomhorn" data-category="video-slot">Slot oyunları</a>
+              </li>
+              <li>
+                <a href="#" role="tab" data-toggle="tab" onclick="selectCategory(this);" data-provider="tomhorn" data-category="table-game">Masa oyunları</a>
+              </li>
+              <li>
+                <a href="#" role="tab" data-toggle="tab" onclick="selectCategory(this);" data-provider="tomhorn" data-category="video-poker">Video oyunları</a>
+              </li>
+              <li>
+                <a href="#" role="tab" data-toggle="tab" onclick="selectCategory(this);" data-provider="tomhorn" data-category="bingo">Tombala</a>
+              </li>
+              <li>
+                <a href="#" role="tab" data-toggle="tab" onclick="selectCategory(this);" data-provider="tomhorn" data-category="keno">Keno</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="dropdown">
+            <a style="padding:15px 5px !important;" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+              aria-expanded="false">BETSOFT
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="#" role="tab" data-toggle="tab" onclick="selectCategory(this);" data-provider="betsoft" data-category="video-slots">Slot oyunları</a>
+              </li>
+              <li>
+                <a href="#" role="tab" data-toggle="tab" onclick="selectCategory(this);" data-provider="betsoft" data-category="table-games">Masa oyunları</a>
+              </li>
+              <li>
+                <a href="#" role="tab" data-toggle="tab" onclick="selectCategory(this);" data-provider="betsoft" data-category="video-poker">Video oyunları</a>
+              </li>
+              <li>
+                <a href="#" role="tab" data-toggle="tab" onclick="selectCategory(this);" data-provider="betsoft" data-category="virtual-games">Virtual oyunları</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="dropdown">
+            <a style="padding:15px 5px !important;" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+              aria-expanded="false">PRAGMATIC PLAY
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="#" role="tab" data-toggle="tab" onclick="selectCategory(this);" data-provider="pragmatic_play" data-category="video-slots">Slot oyunları</a>
+              </li>
+              <li>
+                <a href="#" role="tab" data-toggle="tab" onclick="selectCategory(this);" data-provider="pragmatic_play" data-category="table-games">Masa oyunları</a>
+              </li>
+              <li>
+                <a href="#" role="tab" data-toggle="tab" onclick="selectCategory(this);" data-provider="pragmatic_play" data-category="video-poker">Video oyunları</a>
+              </li>
+              <li>
+                <a href="#" role="tab" data-toggle="tab" onclick="selectCategory(this);" data-provider="pragmatic_play" data-category="scratch-cards">Kart oyunları</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="javascript:;" style="text-transform: uppercase;" aonclick="selectCategory(this)" role="button" aria-expanded="false"
+              data-provider="$providers">ucfirst($providers)</a>
+          </li>
+
+          <li class="dropdown microgaming">
+            <a style="padding:15px 5px !important;" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+              aria-expanded="false">MICRO GAMING
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu microgaming">
+              <li>
+                <a href="#microgaming_slot" aria-controls="#microgaming_slot" role="tab" data-toggle="tab" data-listname="microgaming_slot">Slot Oyunları</a>
+              </li>
+              <li>
+                <a href="#microgaming_table" aria-controls="#microgaming_table" role="tab" data-toggle="tab" data-listname="microgaming_table">Masa Oyunları</a>
+              </li>
+              <li>
+                <a href="#microgaming_card" aria-controls="#microgaming_card" role="tab" data-toggle="tab" data-listname="microgaming_card">Kart Oyunları</a>
+              </li>
+              <li>
+                <a href="#microgaming_bingo" aria-controls="#microgaming_bingo" role="tab" data-toggle="tab" data-listname="microgaming_bingo">Bingo</a>
+              </li>
+              <li>
+                <a href="#microgaming_keno" aria-controls="#microgaming_keno" role="tab" data-toggle="tab" data-listname="microgaming_keno">Keno</a>
+              </li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a style="padding:15px 5px !important;" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+              aria-expanded="false">REDRAKE
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="#" role="tab" data-toggle="tab" onclick="selectCategory(this);" data-provider="redrake" data-category="video-slot">Slot oyunları</a>
+              </li>
+              <li>
+                <a href="#" role="tab" data-toggle="tab" onclick="selectCategory(this);" data-provider="redrake" data-category="video-bingo">Video bingo</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="tab-content">
+      <div role="tabpanel" class="tab-pane game_list" data-provider="str_replace(' ', '_', $gameProvider)">
+       
+        <div class="category_list" data-provider="str_replace(' ', '_', $gameProvider)" data-category="$category">
+          <ng-container *ngFor="let slot of allSlotData.realgaming?.novomatic.desktop.data">
+              <div class="col-md-3 col-xs-6 col-sm-3" data-name="data-name">
+                  <figure class="slot-box">
+                    <img class="lazy" [attr.data-original]="'https://static.redsoftnvcdn.com/common/novomatic/' + slot.image || '//betdemo.dev/assets/images/slot-lazy-load.jpg'" [src]="'https://static.redsoftnvcdn.com/common/novomatic/' + slot.image"
+                      alt="{{slot.title}}" />
+                    <h3>{{slot.title | json}}</h3>
+                    <div class="center">
+                      <a href="javascript:;" onclick="modalPage('route('slot.run', ['blueoceangaming', $value['id'], '0'])',800,600);">
+                        <i class="fa fa-play-circle-o" aria-hidden="true"></i>
+                      </a>
+                    </div>
+                  </figure>
+                </div>
+
+          </ng-container>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

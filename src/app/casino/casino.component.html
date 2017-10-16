@@ -1,0 +1,48 @@
+<style>
+	section{
+		display: inline;
+	}
+</style>
+<div class="container">
+<div id="casinoSlider" class="carousel slide" data-ride="carousel">
+
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <ng-container *ngFor="let slide of sliders">
+        <div class="item active">
+            
+                <a href="">
+                  <img src="{{rootPath + slide.id}}"></a>
+              </div>
+
+    </ng-container>
+
+  </div>
+</div>
+
+<div class="clearfix"></div>
+<ul class="nav nav-pills casino-menu mt-20 row">
+  <li class="col-md-3 col-xs-6 col-sm-6"><a data-attr="casino_blackjack"><i class="ti-star"></i> Live Blackjack</a></li>
+  <li class="col-md-3 col-xs-6 col-sm-6"><a data-attr="casino_baccarat"><i class="ti-star"></i> Live Baccarat</a></li>
+  <li class="col-md-3 col-xs-6 col-sm-6"><a data-attr="casino_holdem"><i class="ti-star"></i>Casino Holdem</a></li>
+  <li class="col-md-3 col-xs-6 col-sm-6"><a data-attr="casino_roulette"><i class="ti-star"></i>Live Roulette</a></li>
+</ul>
+
+<div class="row">
+  <div class="tab-content">
+          <a class="col-md-3 col-xs-6 fancybox fancybox.iframe box casino_blackjack" caption="Evolution Gaming" href="/casino/evolutiongaming/blackjack">
+              <div class="casino-box evo-blackjack"></div>
+          </a>
+          <a class="col-md-3 col-xs-6 fancybox fancybox.iframe box casino_baccarat" caption="Evolution Gaming" href="/casino/evolutiongaming/baccarat">
+              <div class="casino-box evo-baccarat"> </div>
+          </a>
+          <a class="col-md-3 col-xs-6 fancybox fancybox.iframe box casino_roulette" caption="Evolution Gaming" href="/casino/evolutiongaming/roulette">
+              <div class="casino-box evo-roulette"> </div>
+          </a>
+          <a class="col-md-3 col-xs-6 fancybox fancybox.iframe box casino_holdem" caption="Evolution Gaming" href="/casino/evolutiongaming/holdem">
+              <div class="casino-box evo-holdem"> </div>
+          </a>
+  </div>
+</div>
+</div>
